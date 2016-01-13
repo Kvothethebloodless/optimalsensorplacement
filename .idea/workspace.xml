@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Full code cleanup. Fully working now.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParticleSwarmOptimization.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradientdescentlocalize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pointpicker.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optms_pso.npy" afterPath="$PROJECT_DIR$/optms_pso.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psodata2.npy" afterPath="$PROJECT_DIR$/psodata2.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arena.py" afterPath="$PROJECT_DIR$/arena.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curve_localization.py" afterPath="$PROJECT_DIR$/curve_localization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gdsolver.py" afterPath="$PROJECT_DIR$/gdsolver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmsgdslog" afterPath="$PROJECT_DIR$/optmsgdslog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmspsolog" afterPath="$PROJECT_DIR$/optmspsolog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optsenpmtscore.py" afterPath="$PROJECT_DIR$/optsenpmtscore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter.py" afterPath="$PROJECT_DIR$/plotter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter2.py" afterPath="$PROJECT_DIR$/plotter2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psolog" afterPath="$PROJECT_DIR$/psolog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psosolver.py" afterPath="$PROJECT_DIR$/psosolver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statelogger.py" afterPath="$PROJECT_DIR$/statelogger.py" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,20 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/curve_localization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gdsolver.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gdsolver.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gdsolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.057416268">
               <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding>
                 <element signature="e#110#233#0" expanded="true" />
@@ -61,6 +37,24 @@
                 <element signature="e#375#428#0" expanded="true" />
                 <element signature="e#469#564#0" expanded="true" />
                 <element signature="e#586#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/curve_localization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#563#611#0" expanded="true" />
+                <element signature="e#1318#1381#0" expanded="true" />
+                <element signature="e#1661#2044#0" expanded="true" />
+                <element signature="e#2107#2237#0" expanded="true" />
+                <element signature="e#2287#2431#0" expanded="true" />
+                <element signature="e#2580#2682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,17 +103,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statelogger.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="statelogger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statelogger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3141946">
-              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#114#1788#0" expanded="true" />
                 <element signature="e#1816#2059#0" expanded="true" />
                 <element signature="e#2089#2354#0" expanded="true" />
-                <element signature="e#2386#3081#0" expanded="true" />
                 <element signature="e#3109#3196#0" expanded="true" />
               </folding>
             </state>
@@ -143,14 +136,14 @@
       <file leaf-file-name="arena.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arena.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            <state vertical-scroll-proportion="-6.1">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
-                <element signature="e#215#445#0" expanded="true" />
                 <element signature="e#500#647#0" expanded="true" />
                 <element signature="e#694#1343#0" expanded="true" />
                 <element signature="e#1631#1710#0" expanded="true" />
                 <element signature="e#1755#1875#0" expanded="true" />
+                <element signature="e#1917#2689#0" expanded="true" />
                 <element signature="e#2738#3171#0" expanded="true" />
               </folding>
             </state>
@@ -160,11 +153,13 @@
       <file leaf-file-name="localize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/localize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.444445">
+              <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1504#4785#0" expanded="true" />
+                <element signature="e#573#621#0" expanded="true" />
+                <element signature="e#653#677#0" expanded="true" />
+                <element signature="e#711#1473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,7 +171,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#120#307#0" expanded="true" />
                 <element signature="e#480#1383#0" expanded="true" />
                 <element signature="e#1425#2852#0" expanded="true" />
@@ -224,21 +218,21 @@
         <option value="$PROJECT_DIR$/plotter2.py" />
         <option value="$PROJECT_DIR$/pointpicker.py" />
         <option value="$PROJECT_DIR$/ParticleSwarmOptimization.py" />
-        <option value="$PROJECT_DIR$/localize.py" />
         <option value="$PROJECT_DIR$/findoptsenplacement.py" />
-        <option value="$PROJECT_DIR$/arena.py" />
         <option value="$PROJECT_DIR$/gradientdescentlocalize.py" />
         <option value="$PROJECT_DIR$/psosolver.py" />
         <option value="$PROJECT_DIR$/gdsolver.py" />
-        <option value="$PROJECT_DIR$/curve_localization.py" />
         <option value="$PROJECT_DIR$/optsenpmtscore.py" />
         <option value="$PROJECT_DIR$/statelogger.py" />
+        <option value="$PROJECT_DIR$/localize.py" />
+        <option value="$PROJECT_DIR$/arena.py" />
+        <option value="$PROJECT_DIR$/curve_localization.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="792" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
   </component>
@@ -267,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -282,6 +275,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,7 +300,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="215" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -325,24 +319,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1138" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
-  <component name="RunManager" selected="Python.statelogger">
-    <configuration default="false" name="fulllocalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Optimal Sensor Location" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fulllocalization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.curve_localization">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -407,6 +384,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Optimal Sensor Location" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/localize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="curve_localization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Optimal Sensor Location" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curve_localization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -534,19 +528,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.fulllocalization" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.statelogger" />
-      <item index="3" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
-      <item index="4" class="java.lang.String" itemvalue="Python.localize" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.statelogger" />
+      <item index="2" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
+      <item index="3" class="java.lang.String" itemvalue="Python.localize" />
+      <item index="4" class="java.lang.String" itemvalue="Python.curve_localization" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.statelogger" />
-        <item index="1" class="java.lang.String" itemvalue="Python.localize" />
-        <item index="2" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fulllocalization" />
+        <item index="0" class="java.lang.String" itemvalue="Python.curve_localization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.statelogger" />
+        <item index="2" class="java.lang.String" itemvalue="Python.localize" />
+        <item index="3" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -579,31 +573,37 @@
       <option name="project" value="LOCAL" />
       <updated>1452683345668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Full code cleanup. Fully working now.">
+      <created>1452687837982</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1452687837982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="792" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625336" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -644,6 +644,131 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#180#370#0" expanded="true" />
+            <element signature="e#417#483#0" expanded="true" />
+            <element signature="e#530#653#0" expanded="true" />
+            <element signature="e#709#1596#0" expanded="true" />
+            <element signature="e#1673#1823#0" expanded="true" />
+            <element signature="e#1862#1962#0" expanded="true" />
+            <element signature="e#2071#2162#0" expanded="true" />
+            <element signature="e#2439#2587#0" expanded="true" />
+            <element signature="e#2623#2730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psolog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2654#2893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statelogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#114#1788#0" expanded="true" />
+            <element signature="e#1816#2059#0" expanded="true" />
+            <element signature="e#2089#2354#0" expanded="true" />
+            <element signature="e#3109#3196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#667#1000#0" expanded="true" />
+            <element signature="e#1059#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#500#647#0" expanded="true" />
+            <element signature="e#694#1343#0" expanded="true" />
+            <element signature="e#1631#1710#0" expanded="true" />
+            <element signature="e#1755#1875#0" expanded="true" />
+            <element signature="e#1917#2689#0" expanded="true" />
+            <element signature="e#2738#3171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#573#621#0" expanded="true" />
+            <element signature="e#653#677#0" expanded="true" />
+            <element signature="e#711#1473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psosolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="e#120#307#0" expanded="true" />
+            <element signature="e#480#1383#0" expanded="true" />
+            <element signature="e#1425#2852#0" expanded="true" />
+            <element signature="e#3575#4046#0" expanded="true" />
+            <element signature="e#4099#4283#0" expanded="true" />
+            <element signature="e#4326#4393#0" expanded="true" />
+            <element signature="e#4436#4904#0" expanded="true" />
+            <element signature="e#4940#5054#0" expanded="true" />
+            <element signature="e#5101#5304#0" expanded="true" />
+            <element signature="e#5346#5662#0" expanded="true" />
+            <element signature="e#5694#6926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gdsolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#233#0" expanded="true" />
+            <element signature="e#309#346#0" expanded="true" />
+            <element signature="e#375#428#0" expanded="true" />
+            <element signature="e#469#564#0" expanded="true" />
+            <element signature="e#586#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotter2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -670,7 +795,6 @@
             <element signature="e#114#1788#0" expanded="true" />
             <element signature="e#1816#2059#0" expanded="true" />
             <element signature="e#2089#2354#0" expanded="true" />
-            <element signature="e#2386#3081#0" expanded="true" />
             <element signature="e#3109#3196#0" expanded="true" />
           </folding>
         </state>
@@ -681,7 +805,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
             <element signature="e#1425#2852#0" expanded="true" />
@@ -744,7 +867,6 @@
             <element signature="e#114#1788#0" expanded="true" />
             <element signature="e#1816#2059#0" expanded="true" />
             <element signature="e#2089#2354#0" expanded="true" />
-            <element signature="e#2386#3081#0" expanded="true" />
             <element signature="e#3109#3196#0" expanded="true" />
           </folding>
         </state>
@@ -755,7 +877,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
             <element signature="e#1425#2852#0" expanded="true" />
@@ -807,7 +928,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
             <element signature="e#1425#2852#0" expanded="true" />
@@ -832,7 +952,6 @@
             <element signature="e#114#1788#0" expanded="true" />
             <element signature="e#1816#2059#0" expanded="true" />
             <element signature="e#2089#2354#0" expanded="true" />
-            <element signature="e#2386#3081#0" expanded="true" />
             <element signature="e#3109#3196#0" expanded="true" />
           </folding>
         </state>
@@ -926,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02">
           <caret line="1614" column="0" selection-start-line="1614" selection-start-column="0" selection-end-line="1614" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,8 +1059,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gdslog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psolog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statelogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
           <folding>
-            <element signature="e#65492#68111#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#114#1788#0" expanded="true" />
+            <element signature="e#1816#2059#0" expanded="true" />
+            <element signature="e#2089#2354#0" expanded="true" />
+            <element signature="e#3109#3196#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -952,7 +1096,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
             <element signature="e#1425#2852#0" expanded="true" />
@@ -968,26 +1111,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arena.py">
+    <entry file="file://$PROJECT_DIR$/localize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        <state vertical-scroll-proportion="-8.444445">
+          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
           <folding>
-            <element signature="e#215#445#0" expanded="true" />
-            <element signature="e#500#647#0" expanded="true" />
-            <element signature="e#694#1343#0" expanded="true" />
-            <element signature="e#1631#1710#0" expanded="true" />
-            <element signature="e#1755#1875#0" expanded="true" />
-            <element signature="e#2738#3171#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#573#621#0" expanded="true" />
+            <element signature="e#653#677#0" expanded="true" />
+            <element signature="e#711#1473#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,33 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1504#4785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gdslog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1059,9 +1165,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gdsolver.py">
+    <entry file="file://$PROJECT_DIR$/arena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#500#647#0" expanded="true" />
+            <element signature="e#694#1343#0" expanded="true" />
+            <element signature="e#1631#1710#0" expanded="true" />
+            <element signature="e#1755#1875#0" expanded="true" />
+            <element signature="e#1917#2689#0" expanded="true" />
+            <element signature="e#2738#3171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#563#611#0" expanded="true" />
+            <element signature="e#1318#1381#0" expanded="true" />
+            <element signature="e#1661#2044#0" expanded="true" />
+            <element signature="e#2107#2237#0" expanded="true" />
+            <element signature="e#2287#2431#0" expanded="true" />
+            <element signature="e#2580#2682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gdsolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057416268">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
             <element signature="e#110#233#0" expanded="true" />
@@ -1069,21 +1206,6 @@
             <element signature="e#375#428#0" expanded="true" />
             <element signature="e#469#564#0" expanded="true" />
             <element signature="e#586#997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3141946">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#114#1788#0" expanded="true" />
-            <element signature="e#1816#2059#0" expanded="true" />
-            <element signature="e#2089#2354#0" expanded="true" />
-            <element signature="e#2386#3081#0" expanded="true" />
-            <element signature="e#3109#3196#0" expanded="true" />
           </folding>
         </state>
       </provider>
