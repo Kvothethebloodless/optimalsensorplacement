@@ -150,7 +150,8 @@ curr_arena = arena(no_sensors, sensorloc_array, target_loc);
 ExampleSolSpacePoint = np.random.random((1, ndim))
 iterindx = 1
 gdsolver = gds.GDS(curr_arena.get_score, curr_arena.gradient_score, ExampleSolSpacePoint);
-psosolver = psos.PSO(curr_arena.get_score, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint);
+psosolver = psos.PSO(curr_arena.get_score, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint,
+                     [-10 * np.ones(ndim), 10 * np.ones(ndim)]);
 
 psodata = stlog.statelogger('psodata2', 'psolog',
                             np.vstack((psosolver.current_pos, curr_arena.sensor_loc, curr_arena.target_loc)),
@@ -162,6 +163,8 @@ psodata = stlog.statelogger('psodata2', 'psolog',
 #Dummy gdsolver.new_point to replace centroid that the plotter is expecting in the second term.
 indx = 0;
 # while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
+point = ExampleSolSpacePoint;
+
 while indx < 300:
     psosolver.update_pos();
     psosolver.update_currscores();
