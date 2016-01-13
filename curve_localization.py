@@ -64,7 +64,7 @@ for i in range(no_points):
 
 distancevector = np.array(buff)
 
-max_distance = np.max(distance_vector)
+max_distance = np.max(distancevector)
 roadlength = max_distance;
 
 

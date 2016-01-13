@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Setup the road. Working on solution now.&#10;">
+    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Working code. But not producing the expected results.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psodata2.npy" afterPath="$PROJECT_DIR$/psodata2.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curve_localization.py" afterPath="$PROJECT_DIR$/curve_localization.py" />
@@ -45,18 +45,30 @@
       <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8708134">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.0191388">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#716#764#0" expanded="true" />
-                <element signature="e#1471#1534#0" expanded="true" />
-                <element signature="e#1830#2219#0" expanded="true" />
-                <element signature="e#2281#2411#0" expanded="true" />
-                <element signature="e#2461#2605#0" expanded="true" />
-                <element signature="e#2754#2856#0" expanded="true" />
-                <element signature="e#3080#3236#0" expanded="true" />
-                <element signature="e#3264#6311#0" expanded="true" />
+                <element signature="e#679#727#0" expanded="true" />
+                <element signature="e#1434#1497#0" expanded="true" />
+                <element signature="e#1792#2181#0" expanded="true" />
+                <element signature="e#2243#2373#0" expanded="true" />
+                <element signature="e#2423#2567#0" expanded="true" />
+                <element signature="e#2716#2818#0" expanded="true" />
+                <element signature="e#3043#3201#0" expanded="true" />
+                <element signature="e#3229#6173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numeric.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/numeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding>
+                <element signature="e#46644#47819#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,16 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="psolog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/psolog">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="plotter2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotter2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,22 +102,6 @@
               <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="e#2654#2893#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statelogger.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statelogger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#114#1788#0" expanded="true" />
-                <element signature="e#1816#2059#0" expanded="true" />
-                <element signature="e#2089#2354#0" expanded="true" />
-                <element signature="e#3109#3196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,11 +158,11 @@
         <entry file="file://$PROJECT_DIR$/psosolver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#120#307#0" expanded="true" />
                 <element signature="e#480#1383#0" expanded="true" />
-                <element signature="e#1425#2852#0" expanded="true" />
+                <element signature="e#2892#3533#0" expanded="true" />
                 <element signature="e#3575#4046#0" expanded="true" />
                 <element signature="e#4099#4283#0" expanded="true" />
                 <element signature="e#4326#4393#0" expanded="true" />
@@ -185,6 +171,18 @@
                 <element signature="e#5101#5304#0" expanded="true" />
                 <element signature="e#5346#5662#0" expanded="true" />
                 <element signature="e#5694#6926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fromnumeric.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/fromnumeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2213" column="0" selection-start-line="2213" selection-start-column="0" selection-end-line="2213" selection-end-column="0" />
+              <folding>
+                <element signature="e#3469#7118#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -588,18 +586,24 @@
       <option name="project" value="LOCAL" />
       <updated>1452716486955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Working code. But not producing the expected results.&#10;">
+      <created>1452721354188</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452721354188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625336" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625336" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -635,7 +639,8 @@
     <MESSAGE value="Full code cleanup." />
     <MESSAGE value="Full code cleanup. Fully working now." />
     <MESSAGE value="Setup the road. Working on solution now.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup the road. Working on solution now.&#10;" />
+    <MESSAGE value="Working code. But not producing the expected results.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working code. But not producing the expected results.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -648,8 +653,13 @@
           <line>40</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/curve_localization.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -753,7 +763,7 @@
           <folding>
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#1425#2852#0" expanded="true" />
+            <element signature="e#2892#3533#0" expanded="true" />
             <element signature="e#3575#4046#0" expanded="true" />
             <element signature="e#4099#4283#0" expanded="true" />
             <element signature="e#4326#4393#0" expanded="true" />
@@ -818,7 +828,7 @@
           <folding>
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#1425#2852#0" expanded="true" />
+            <element signature="e#2892#3533#0" expanded="true" />
             <element signature="e#3575#4046#0" expanded="true" />
             <element signature="e#4099#4283#0" expanded="true" />
             <element signature="e#4326#4393#0" expanded="true" />
@@ -890,7 +900,7 @@
           <folding>
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#1425#2852#0" expanded="true" />
+            <element signature="e#2892#3533#0" expanded="true" />
             <element signature="e#3575#4046#0" expanded="true" />
             <element signature="e#4099#4283#0" expanded="true" />
             <element signature="e#4326#4393#0" expanded="true" />
@@ -941,7 +951,7 @@
           <folding>
             <element signature="e#120#307#0" expanded="true" />
             <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#1425#2852#0" expanded="true" />
+            <element signature="e#2892#3533#0" expanded="true" />
             <element signature="e#3575#4046#0" expanded="true" />
             <element signature="e#4099#4283#0" expanded="true" />
             <element signature="e#4326#4393#0" expanded="true" />
@@ -1052,24 +1062,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02">
-          <caret line="1614" column="0" selection-start-line="1614" selection-start-column="0" selection-end-line="1614" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="217" column="0" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1098,26 +1094,6 @@
             <element signature="e#1816#2059#0" expanded="true" />
             <element signature="e#2089#2354#0" expanded="true" />
             <element signature="e#3109#3196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-          <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#1425#2852#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1206,20 +1182,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#46644#47819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2213" column="0" selection-start-line="2213" selection-start-column="0" selection-end-line="2213" selection-end-column="0" />
+          <folding>
+            <element signature="e#3469#7118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psosolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#120#307#0" expanded="true" />
+            <element signature="e#480#1383#0" expanded="true" />
+            <element signature="e#2892#3533#0" expanded="true" />
+            <element signature="e#3575#4046#0" expanded="true" />
+            <element signature="e#4099#4283#0" expanded="true" />
+            <element signature="e#4326#4393#0" expanded="true" />
+            <element signature="e#4436#4904#0" expanded="true" />
+            <element signature="e#4940#5054#0" expanded="true" />
+            <element signature="e#5101#5304#0" expanded="true" />
+            <element signature="e#5346#5662#0" expanded="true" />
+            <element signature="e#5694#6926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8708134">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.0191388">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#716#764#0" expanded="true" />
-            <element signature="e#1471#1534#0" expanded="true" />
-            <element signature="e#1830#2219#0" expanded="true" />
-            <element signature="e#2281#2411#0" expanded="true" />
-            <element signature="e#2461#2605#0" expanded="true" />
-            <element signature="e#2754#2856#0" expanded="true" />
-            <element signature="e#3080#3236#0" expanded="true" />
-            <element signature="e#3264#6311#0" expanded="true" />
+            <element signature="e#679#727#0" expanded="true" />
+            <element signature="e#1434#1497#0" expanded="true" />
+            <element signature="e#1792#2181#0" expanded="true" />
+            <element signature="e#2243#2373#0" expanded="true" />
+            <element signature="e#2423#2567#0" expanded="true" />
+            <element signature="e#2716#2818#0" expanded="true" />
+            <element signature="e#3043#3201#0" expanded="true" />
+            <element signature="e#3229#6173#0" expanded="true" />
           </folding>
         </state>
       </provider>
