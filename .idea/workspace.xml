@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Cleaned up Full Localization to provide arena class and different target, sensor array creation methods.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Se">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arena.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fulllocalization.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gdssolsens.npy" afterPath="$PROJECT_DIR$/gdssolsens.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optms_gds.npy" afterPath="$PROJECT_DIR$/optms_gds.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optms_pso.npy" afterPath="$PROJECT_DIR$/optms_pso.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psodata2.npy" afterPath="$PROJECT_DIR$/psodata2.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psosolsens.npy" afterPath="$PROJECT_DIR$/psosolsens.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curve_localization.py" afterPath="$PROJECT_DIR$/curve_localization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fulllocalization.py" afterPath="$PROJECT_DIR$/fulllocalization.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmsgdslog" afterPath="$PROJECT_DIR$/optmsgdslog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmspsolog" afterPath="$PROJECT_DIR$/optmspsolog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psolog" afterPath="$PROJECT_DIR$/psolog" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,23 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fulllocalization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fulllocalization.py">
+      <file leaf-file-name="arena.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arena.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+            <state vertical-scroll-proportion="27.583334">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#384#429#0" expanded="true" />
-                <element signature="e#461#486#0" expanded="true" />
-                <element signature="e#520#1283#0" expanded="true" />
-                <element signature="e#1439#1646#0" expanded="true" />
-                <element signature="e#1701#1848#0" expanded="true" />
-                <element signature="e#1895#2548#0" expanded="true" />
-                <element signature="e#2836#2915#0" expanded="true" />
-                <element signature="e#2960#3081#0" expanded="true" />
-                <element signature="e#3123#3901#0" expanded="true" />
-                <element signature="e#3950#4382#0" expanded="true" />
+                <element signature="e#353#586#0" expanded="true" />
+                <element signature="e#641#788#0" expanded="true" />
+                <element signature="e#835#1488#0" expanded="true" />
+                <element signature="e#1776#1855#0" expanded="true" />
+                <element signature="e#1900#2021#0" expanded="true" />
+                <element signature="e#2063#2841#0" expanded="true" />
+                <element signature="e#2890#3321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8277512">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -129,13 +131,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="findoptsenplacement.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48803827">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
-                <element signature="e#667#1004#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,10 +191,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="kvothethebloodless &lt;manish97ravula@gmail.com&gt;" />
         <option value="Manish" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,8 +211,9 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/psosolver.py" />
         <option value="$PROJECT_DIR$/optsenpmtscore.py" />
-        <option value="$PROJECT_DIR$/fulllocalization.py" />
         <option value="$PROJECT_DIR$/curve_localization.py" />
+        <option value="$PROJECT_DIR$/arena.py" />
+        <option value="$PROJECT_DIR$/fulllocalization.py" />
       </list>
     </option>
   </component>
@@ -250,20 +257,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -331,23 +324,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Optimal Sensor Location" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="plotter2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,6 +371,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Optimal Sensor Location" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="arena" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Optimal Sensor Location" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arena.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -523,18 +516,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.fulllocalization" />
-      <item index="1" class="java.lang.String" itemvalue="Python.plotter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plotter2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.optsenpmtscore" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.plotter2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.optsenpmtscore" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.arena" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.optsenpmtscore" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fulllocalization" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plotter2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plotter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fulllocalization" />
+        <item index="2" class="java.lang.String" itemvalue="Python.arena" />
+        <item index="3" class="java.lang.String" itemvalue="Python.optsenpmtscore" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plotter2" />
       </list>
     </recent_temporary>
   </component>
@@ -549,13 +542,26 @@
       <option name="number" value="Default" />
       <updated>1451230222255</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cleaned up Full Localization to provide arena class and different target, sensor array creation methods.">
+      <created>1452681533495</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452681533495</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed errors in full localization.py. PSO changes need to be remembered in boundary management.">
+      <created>1452681840455</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452681840455</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="792" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,7 +569,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09811321" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,7 +596,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Cleaned up Full Localization to provide arena class and different target, sensor array creation methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up Full Localization to provide arena class and different target, sensor array creation methods." />
+    <MESSAGE value="Fixed errors in full localization.py. PSO changes need to be remembered in boundary management." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed errors in full localization.py. PSO changes need to be remembered in boundary management." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -598,16 +605,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/fulllocalization.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/fulllocalization.py</url>
-          <line>138</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/gdsolver.py</url>
           <line>18</line>
@@ -618,36 +615,12 @@
           <line>47</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#207#402#0" expanded="true" />
-            <element signature="e#449#517#0" expanded="true" />
-            <element signature="e#563#686#0" expanded="true" />
-            <element signature="e#741#1626#0" expanded="true" />
-            <element signature="e#1690#1840#0" expanded="true" />
-            <element signature="e#1878#1963#0" expanded="true" />
-            <element signature="e#2071#2159#0" expanded="true" />
-            <element signature="e#2193#2402#0" expanded="true" />
-            <element signature="e#2439#2584#0" expanded="true" />
-            <element signature="e#2618#2723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParticleSwarmOptimization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -713,26 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fulllocalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#384#429#0" expanded="true" />
-            <element signature="e#461#486#0" expanded="true" />
-            <element signature="e#520#1283#0" expanded="true" />
-            <element signature="e#1439#1646#0" expanded="true" />
-            <element signature="e#1701#1848#0" expanded="true" />
-            <element signature="e#1895#2548#0" expanded="true" />
-            <element signature="e#2836#2915#0" expanded="true" />
-            <element signature="e#2960#3081#0" expanded="true" />
-            <element signature="e#3123#3901#0" expanded="true" />
-            <element signature="e#3950#4382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,26 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fulllocalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#384#429#0" expanded="true" />
-            <element signature="e#461#486#0" expanded="true" />
-            <element signature="e#520#1283#0" expanded="true" />
-            <element signature="e#1439#1646#0" expanded="true" />
-            <element signature="e#1701#1848#0" expanded="true" />
-            <element signature="e#1895#2548#0" expanded="true" />
-            <element signature="e#2836#2915#0" expanded="true" />
-            <element signature="e#2960#3081#0" expanded="true" />
-            <element signature="e#3123#3901#0" expanded="true" />
-            <element signature="e#3950#4382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,25 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#207#402#0" expanded="true" />
-            <element signature="e#449#517#0" expanded="true" />
-            <element signature="e#563#686#0" expanded="true" />
-            <element signature="e#741#1626#0" expanded="true" />
-            <element signature="e#1690#1840#0" expanded="true" />
-            <element signature="e#1878#1963#0" expanded="true" />
-            <element signature="e#2071#2159#0" expanded="true" />
-            <element signature="e#2193#2402#0" expanded="true" />
-            <element signature="e#2439#2584#0" expanded="true" />
-            <element signature="e#2618#2723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plotter2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1087,20 +1001,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="e#2643#2844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1853#2096#0" expanded="true" />
-            <element signature="e#2130#2398#0" expanded="true" />
-            <element signature="e#2437#3136#0" expanded="true" />
-            <element signature="e#3164#3253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,40 +1037,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#667#1004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fulllocalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="46" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#384#429#0" expanded="true" />
-            <element signature="e#461#486#0" expanded="true" />
-            <element signature="e#520#1283#0" expanded="true" />
-            <element signature="e#1439#1646#0" expanded="true" />
-            <element signature="e#1701#1848#0" expanded="true" />
-            <element signature="e#1895#2548#0" expanded="true" />
-            <element signature="e#2836#2915#0" expanded="true" />
-            <element signature="e#2960#3081#0" expanded="true" />
-            <element signature="e#3123#3901#0" expanded="true" />
-            <element signature="e#3950#4382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8277512">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#207#402#0" expanded="true" />
+            <element signature="e#449#517#0" expanded="true" />
+            <element signature="e#563#686#0" expanded="true" />
+            <element signature="e#741#1626#0" expanded="true" />
+            <element signature="e#1690#1840#0" expanded="true" />
+            <element signature="e#1878#1963#0" expanded="true" />
+            <element signature="e#2071#2159#0" expanded="true" />
+            <element signature="e#2193#2402#0" expanded="true" />
+            <element signature="e#2439#2584#0" expanded="true" />
+            <element signature="e#2618#2723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="27.583334">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#353#586#0" expanded="true" />
+            <element signature="e#641#788#0" expanded="true" />
+            <element signature="e#835#1488#0" expanded="true" />
+            <element signature="e#1776#1855#0" expanded="true" />
+            <element signature="e#1900#2021#0" expanded="true" />
+            <element signature="e#2063#2841#0" expanded="true" />
+            <element signature="e#2890#3321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statelogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1853#2096#0" expanded="true" />
+            <element signature="e#2130#2398#0" expanded="true" />
+            <element signature="e#2437#3136#0" expanded="true" />
+            <element signature="e#3164#3253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48803827">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
