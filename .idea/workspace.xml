@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Full code cleanup. Fully working now.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Setup the road. Working on solution now.&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psodata2.npy" afterPath="$PROJECT_DIR$/psodata2.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arena.py" afterPath="$PROJECT_DIR$/arena.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curve_localization.py" afterPath="$PROJECT_DIR$/curve_localization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psolog" afterPath="$PROJECT_DIR$/psolog" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gdsolver.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gdsolver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gdsolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.057416268">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="e#110#233#0" expanded="true" />
                 <element signature="e#309#346#0" expanded="true" />
@@ -42,19 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.8708134">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#563#611#0" expanded="true" />
-                <element signature="e#1318#1381#0" expanded="true" />
-                <element signature="e#1661#2044#0" expanded="true" />
-                <element signature="e#2107#2237#0" expanded="true" />
-                <element signature="e#2287#2431#0" expanded="true" />
-                <element signature="e#2580#2682#0" expanded="true" />
+                <element signature="e#716#764#0" expanded="true" />
+                <element signature="e#1471#1534#0" expanded="true" />
+                <element signature="e#1830#2219#0" expanded="true" />
+                <element signature="e#2281#2411#0" expanded="true" />
+                <element signature="e#2461#2605#0" expanded="true" />
+                <element signature="e#2754#2856#0" expanded="true" />
+                <element signature="e#3080#3236#0" expanded="true" />
+                <element signature="e#3264#6311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,16 +66,16 @@
         <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+              <caret line="61" column="52" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="52" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#180#370#0" expanded="true" />
                 <element signature="e#417#483#0" expanded="true" />
                 <element signature="e#530#653#0" expanded="true" />
                 <element signature="e#709#1596#0" expanded="true" />
-                <element signature="e#1673#1823#0" expanded="true" />
                 <element signature="e#1862#1962#0" expanded="true" />
                 <element signature="e#2071#2162#0" expanded="true" />
+                <element signature="e#2195#2402#0" expanded="true" />
                 <element signature="e#2439#2587#0" expanded="true" />
                 <element signature="e#2623#2730#0" expanded="true" />
               </folding>
@@ -153,13 +155,14 @@
       <file leaf-file-name="localize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/localize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.444445">
-              <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+            <state vertical-scroll-proportion="-3.5">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#573#621#0" expanded="true" />
-                <element signature="e#653#677#0" expanded="true" />
-                <element signature="e#711#1473#0" expanded="true" />
+                <element signature="e#567#615#0" expanded="true" />
+                <element signature="e#647#671#0" expanded="true" />
+                <element signature="e#705#1467#0" expanded="true" />
+                <element signature="e#1498#4778#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,8 +227,8 @@
         <option value="$PROJECT_DIR$/gdsolver.py" />
         <option value="$PROJECT_DIR$/optsenpmtscore.py" />
         <option value="$PROJECT_DIR$/statelogger.py" />
-        <option value="$PROJECT_DIR$/localize.py" />
         <option value="$PROJECT_DIR$/arena.py" />
+        <option value="$PROJECT_DIR$/localize.py" />
         <option value="$PROJECT_DIR$/curve_localization.py" />
       </list>
     </option>
@@ -579,17 +582,24 @@
       <option name="project" value="LOCAL" />
       <updated>1452687837982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup the road. Working on solution now.&#10;">
+      <created>1452716486955</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1452716486955</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625336" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625336" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -600,7 +610,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -625,7 +634,8 @@
     <MESSAGE value="Cleaned up, and clearly abstracted everything. Seperate arena classes and localize scripts." />
     <MESSAGE value="Full code cleanup." />
     <MESSAGE value="Full code cleanup. Fully working now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Full code cleanup. Fully working now." />
+    <MESSAGE value="Setup the road. Working on solution now.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup the road. Working on solution now.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -654,9 +664,9 @@
             <element signature="e#417#483#0" expanded="true" />
             <element signature="e#530#653#0" expanded="true" />
             <element signature="e#709#1596#0" expanded="true" />
-            <element signature="e#1673#1823#0" expanded="true" />
             <element signature="e#1862#1962#0" expanded="true" />
             <element signature="e#2071#2162#0" expanded="true" />
+            <element signature="e#2195#2402#0" expanded="true" />
             <element signature="e#2439#2587#0" expanded="true" />
             <element signature="e#2623#2730#0" expanded="true" />
           </folding>
@@ -728,9 +738,10 @@
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#573#621#0" expanded="true" />
-            <element signature="e#653#677#0" expanded="true" />
-            <element signature="e#711#1473#0" expanded="true" />
+            <element signature="e#567#615#0" expanded="true" />
+            <element signature="e#647#671#0" expanded="true" />
+            <element signature="e#705#1467#0" expanded="true" />
+            <element signature="e#1498#4778#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,56 +1122,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.444445">
-          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#573#621#0" expanded="true" />
-            <element signature="e#653#677#0" expanded="true" />
-            <element signature="e#711#1473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plotter2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <element signature="e#2654#2893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#667#1000#0" expanded="true" />
-            <element signature="e#1059#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#180#370#0" expanded="true" />
-            <element signature="e#417#483#0" expanded="true" />
-            <element signature="e#530#653#0" expanded="true" />
-            <element signature="e#709#1596#0" expanded="true" />
-            <element signature="e#1673#1823#0" expanded="true" />
-            <element signature="e#1862#1962#0" expanded="true" />
-            <element signature="e#2071#2162#0" expanded="true" />
-            <element signature="e#2439#2587#0" expanded="true" />
-            <element signature="e#2623#2730#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1180,32 +1147,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#563#611#0" expanded="true" />
-            <element signature="e#1318#1381#0" expanded="true" />
-            <element signature="e#1661#2044#0" expanded="true" />
-            <element signature="e#2107#2237#0" expanded="true" />
-            <element signature="e#2287#2431#0" expanded="true" />
-            <element signature="e#2580#2682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gdsolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057416268">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="e#110#233#0" expanded="true" />
             <element signature="e#309#346#0" expanded="true" />
             <element signature="e#375#428#0" expanded="true" />
             <element signature="e#469#564#0" expanded="true" />
             <element signature="e#586#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#667#1000#0" expanded="true" />
+            <element signature="e#1059#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#180#370#0" expanded="true" />
+            <element signature="e#417#483#0" expanded="true" />
+            <element signature="e#530#653#0" expanded="true" />
+            <element signature="e#709#1596#0" expanded="true" />
+            <element signature="e#1862#1962#0" expanded="true" />
+            <element signature="e#2071#2162#0" expanded="true" />
+            <element signature="e#2195#2402#0" expanded="true" />
+            <element signature="e#2439#2587#0" expanded="true" />
+            <element signature="e#2623#2730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#567#615#0" expanded="true" />
+            <element signature="e#647#671#0" expanded="true" />
+            <element signature="e#705#1467#0" expanded="true" />
+            <element signature="e#1498#4778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curve_localization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8708134">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#716#764#0" expanded="true" />
+            <element signature="e#1471#1534#0" expanded="true" />
+            <element signature="e#1830#2219#0" expanded="true" />
+            <element signature="e#2281#2411#0" expanded="true" />
+            <element signature="e#2461#2605#0" expanded="true" />
+            <element signature="e#2754#2856#0" expanded="true" />
+            <element signature="e#3080#3236#0" expanded="true" />
+            <element signature="e#3264#6311#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import arena as arena
+import psosolver as psos  # Pso solver
+import statelogger as stlog  # Logging states and state variables
 
+ndim = 1;
 # The polynomial is - [1.89427432, 1.8132651, -0.44164664, 0.03026042]
 
 
@@ -58,10 +61,11 @@ for i in range(no_points):
 	sum += distance_vector[i];
 	buff.append(sum)
 
-print sum
+
 distancevector = np.array(buff)
 
 max_distance = np.max(distance_vector)
+roadlength = max_distance;
 
 
 def nearest_dist(ele, vector):
@@ -103,3 +107,94 @@ def scorefunc(dist):
 	point = getpoint(dist, distancevector, road_points)
 	score = curr_arena.get_score(point)
 	return score
+
+
+# def gradscorefunc(dist):
+# 	point = getpoint(dist, distancevector, road_points)
+# 	dist_left = (np.roll(road_points==point,1))
+# 	pointleft = road_points(np.roll(road_points==point,-1))
+
+def convertpsotopos(psoobject):
+	l = []
+	for pos in psoobject.current_pos:
+		l.append(np.array(getpoint(pos, distancevector, road_points)))
+	print (np.shape(np.array(l)))
+	return np.vstack(l)
+
+
+def solveforlocation():
+	print ('Solving.... \n')
+	# sensorloc_array = create_sensorlocarray(ndim, no_sensors)
+	# target_loc = create_target(ndim)
+	# curr_arena = ar.arena(no_sensors, ndim, sensorloc_array,rarget_loc)
+
+	# curr_arena = localize(no_sensors,np.load('psosolsens.npy'));
+	# curr_arena = localize(no_sensors,np.load('gdssolsens.npy'));
+	# curr_arena = localize(no_sensors,np.load('fr.npy'));
+
+	# indx = 0;
+	# lst_score = float("inf");
+	# pos_tracker = np.empty(np.shape(pso.current_pos));
+	# spread = 0;
+	# centroid = np.empty(pso.no_dim);
+
+
+	ExampleSolSpacePoint = np.random.random(1) + 5;
+	iterindx = 1
+	# gdsolver = gds.GDS(scorefunc, curr_arena.gradient_score, ExampleSolSpacePoint)
+	psoslr = psos.PSO(curr_arena.get_score, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint,
+					  [0 * np.ones(ndim), roadlength * np.ones(ndim)])
+	psoarray = convertpsotopos(psoslr)
+
+	psodata = stlog.statelogger('psodata2', 'psolog',
+								np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
+								psoslr.centroid, psoslr.spread,
+								psoslr.globalmin)  # Plotter is  just expecting these.
+
+	# gddata = stlog.statelogger('gddata2', 'gdslog',np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
+	#                            gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.new_point)) #Combined position data of moving point sensors and sensor target, i.e the object to be localized, in the first vstack array.
+	# Dummy gdsolver.new_point to replace centroid that the plotter is expecting in the second term.
+	indx = 0
+	# while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
+	point = ExampleSolSpacePoint
+
+	while indx < 300:
+		psoslr.update_pos()
+		psoslr.update_currscores()
+		psoslr.update_selfmin()
+		psoslr.update_globalmin()
+		psoslr.update_velocities()
+		(centroid, spread) = psoslr.calc_swarm_props()
+		print('\n \n \n \n \n')
+		print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \n')
+		print("The running index is " + str(indx) + "\n")
+		print(str(psoslr.globalminlocation))
+		indx += 1
+		if psoslr.no_particles < 20:
+			psoslr.report()
+
+		print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \n')
+		# curr_score = curr_arena.get_score(point)
+		# point = gdsolver.get_descented_point(point)
+		# descented_score = curr_arena.get_score(point)
+		# deltascore = descented_score - curr_score
+		# curr_score = descented_score
+		# gdsolver.report()
+		psoarray = convertpsotopos(psoslr)
+		psodata.add_state(np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
+						  psoslr.centroid, psoslr.spread, psoslr.globalmin)
+	# gddata.add_state(np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
+	#                  gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.point))
+	#
+	##pso.plot_score()
+
+	# gdsolver.plot_score()
+	# plt.show()
+
+	# plt.plot(np.load('psodata.npy')[3], 'r')
+	# plt.show()
+	# plt.plot(np.load('gddata.npy')[3], 'b')
+	# plt.show()
+
+
+solveforlocation()
