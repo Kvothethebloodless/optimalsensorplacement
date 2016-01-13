@@ -1,20 +1,14 @@
-import numpy as np
-import math
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator, FormatStrFormatter
-import statelogger
 #import matplotlib.pyplot as plt
 
-class GDS():
+class GDS:
 	
 	def __init__(self,score_func,gradient_score_func,in_point):
-		self.score_func = score_func;
+		self.score_func = score_func
 		self.gradient_func = gradient_score_func
 		self.accel_coeff = .5
-		self.new_point = in_point;
-		# self.sensor_arena = sensor_arena
+		self.new_point = in_point
+
+	# self.sensor_arena = sensor_arena
 
 	def compute_gradient(self,point):
 		self.grad = self.gradient_func(point)
@@ -22,7 +16,7 @@ class GDS():
 		self.new_point = point - (self.grad*self.accel_coeff)
 	def get_descented_point(self,point):
 		self.point =point
-		self.compute_gradient(point);
+		self.compute_gradient(point)
 		self.descent(point)
 		return  self.new_point
 	def report(self):

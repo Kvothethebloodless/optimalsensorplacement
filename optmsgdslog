@@ -1,9 +1,9 @@
-2016-01-13 16:37:43,508 - statelogger - INFO - **********STARTING***********
-2016-01-13 16:37:43,508 - statelogger - INFO - Logging to - *optmsgdslog*
-2016-01-13 16:37:43,508 - statelogger - INFO - Recieved 1 variables
-2016-01-13 16:37:43,508 - statelogger - INFO - Starting Recording
-2016-01-13 16:37:43,508 - statelogger - INFO - Initialization Finished
-2016-01-13 16:37:44,745 - statelogger.add_state - INFO - Recieved 3 variables.
-2016-01-13 16:37:44,745 - statelogger.update_data - DEBUG - Data Update successful
-2016-01-13 16:37:44,745 - statelogger.write_to_file - DEBUG - Written to file succesfully
-2016-01-13 16:37:44,746 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-01-13 17:45:37,414 - statelogger - INFO - **********STARTING***********
+2016-01-13 17:45:37,414 - statelogger - INFO - Logging to - *optmsgdslog*
+2016-01-13 17:45:37,414 - statelogger - INFO - Recieved 1 variables
+2016-01-13 17:45:37,414 - statelogger - INFO - Starting Recording
+2016-01-13 17:45:37,415 - statelogger - INFO - Initialization Finished
+2016-01-13 17:45:38,754 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-01-13 17:45:38,754 - statelogger.update_data - DEBUG - Data Update successful
+2016-01-13 17:45:38,755 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-01-13 17:45:38,755 - statelogger.add_state - INFO - Added 3 variables to bank

@@ -14,27 +14,26 @@ import matplotlib.pyplot as plt
 
 road_curve_polynomial = np.poly1d([1.89427432, 1.8132651, -0.44164664, 0.03026042])
 
-
-no_points = 10000;
-roadbegin_x = 0;
-roadend_x = 10;
-road_xpoints = np.linspace(roadbegin_x,roadend_x,no_points);
-road_ypoints = road_curve_polynomial(road_xpoints);
-road_points = zip(road_xpoints,road_ypoints);
-
+no_points = 10000
+roadbegin_x = 0
+roadend_x = 10
+road_xpoints = np.linspace(roadbegin_x, roadend_x, no_points)
+road_ypoints = road_curve_polynomial(road_xpoints)
+road_points = zip(road_xpoints, road_ypoints)
 
 plt.ion()
 plt.figure()
-plt.plot(road_ypoints,road_xpoints);
-plt.title('Road Shape');
-plt.xlablel('in mts');
-plt.ylabel('in mts');
+plt.plot(road_ypoints, road_xpoints)
+plt.title('Road Shape')
+plt.xlabel('in mts')
+plt.ylabel('in mts')
 plt.show()
 
 
 distance_vector = np.linalg.norm(road_points-np.roll(road_points,-2),axis=1)
-distance_vector[0] = 0;
+distance_vector[0] = 0
 
-max_distance = np.max(distance_vector);
+max_distance = np.max(distance_vector)
+
 
 def scorefunc(dist):
