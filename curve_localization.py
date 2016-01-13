@@ -1,4 +1,5 @@
 import numpy as np
+
 import matplotlib.pyplot as plt
 
 #The polynomial is - [1.89427432, 1.8132651, -0.44164664, 0.03026042]
@@ -18,7 +19,7 @@ no_points = 10000;
 roadbegin_x = 0;
 roadend_x = 10;
 road_xpoints = np.linspace(roadbegin_x,roadend_x,no_points);
-road_ypoints = road_curve(road_xpoints);
+road_ypoints = road_curve_polynomial(road_xpoints);
 road_points = zip(road_xpoints,road_ypoints);
 
 
@@ -37,7 +38,3 @@ distance_vector[0] = 0;
 max_distance = np.max(distance_vector);
 
 def scorefunc(dist):
-    dist()
-
-
-

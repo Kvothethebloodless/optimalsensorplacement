@@ -18,8 +18,12 @@ no_sensors = 4
 ndim = 2
 
 
-def create_sensorarray(n_dim,n_sensors):
+def create_sensorlocarray(n_dim, n_sensors):
     return np.random.random((n_sensors,n_dim))*10
+
+
+def create_target(ndim):
+    return 5 * np.ones(ndim);
 
 
 def plot_surface(fitfunc):
@@ -49,13 +53,14 @@ def plot_surface(fitfunc):
     plt.show()
 
 
-class localize():
-    def __init__(self, no_sensors,sensor_loc):
+class arena():  # Class to hold the physical space and make some calculations on it.
+    def __init__(self, no_sensors, sensor_loc, target_loc):
         self.no_sensors = no_sensors
         self.sensor_loc = sensor_loc;
         self.create_target_object()
         self.get_original_ranges()
         self.get_noisy_ranges()
+        self.target_loc = target_loc;
 
     def dist_from_ithsensor(self, i, point):
         if i > self.no_sensors:
@@ -127,10 +132,13 @@ class localize():
     # def initalize_swarm_param(self):
 
 
-loc_algo = localize(no_sensors,create_sensorarray(ndim,no_sensors));
-#loc_algo = localize(no_sensors,np.load('psosolsens.npy'));
-#loc_algo = localize(no_sensors,np.load('gdssolsens.npy'));
-#loc_algo = localize(no_sensors,np.load('fr.npy'));
+sensorloc_array = create_sensorlocarray(ndim, no_sensors);
+target_loc = create_target(ndim);
+curr_arena = arena(no_sensors, sensorloc_array, target_loc);
+
+# curr_arena = localize(no_sensors,np.load('psosolsens.npy'));
+# curr_arena = localize(no_sensors,np.load('gdssolsens.npy'));
+# curr_arena = localize(no_sensors,np.load('fr.npy'));
 
 # indx = 0;
 # lst_score = float("inf");
@@ -138,17 +146,19 @@ loc_algo = localize(no_sensors,create_sensorarray(ndim,no_sensors));
 # spread = 0;
 # centroid = np.empty(pso.no_dim);
 
-sensor_arena = loc_algo
 
-point = np.random.random((1, ndim))
+ExampleSolSpacePoint = np.random.random((1, ndim))
 iterindx = 1
-gdsolver = gds.GDS(sensor_arena.get_score, sensor_arena.gradient_score, point)
-psosolver = psos.PSO(loc_algo.get_score, 10, ndim, 1, 1.5, 1, point);
+gdsolver = gds.GDS(curr_arena.get_score, curr_arena.gradient_score, ExampleSolSpacePoint);
+psosolver = psos.PSO(curr_arena.get_score, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint);
 
-psodata = stlog.statelogger('psodata2','psolog', np.vstack((psosolver.current_pos,sensor_arena.sensor_loc,sensor_arena.target_loc)), psosolver.centroid, psosolver.spread,psosolver.globalmin) #Plotter is  just expecting these.
+psodata = stlog.statelogger('psodata2', 'psolog',
+                            np.vstack((psosolver.current_pos, curr_arena.sensor_loc, curr_arena.target_loc)),
+                            psosolver.centroid, psosolver.spread,
+                            psosolver.globalmin)  #Plotter is  just expecting these.
 
-# gddata = stlog.statelogger('gddata2', 'gdslog',np.vstack((gdsolver.new_point, sensor_arena.sensor_loc, sensor_arena.target_loc)),
-#                            gdsolver.new_point, 0,gdsolver.sensor_arena.get_score(gdsolver.new_point)) #Combined position data of moving point sensors and sensor target, i.e the object to be localized, in the first vstack array.
+# gddata = stlog.statelogger('gddata2', 'gdslog',np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
+#                            gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.new_point)) #Combined position data of moving point sensors and sensor target, i.e the object to be localized, in the first vstack array.
 #Dummy gdsolver.new_point to replace centroid that the plotter is expecting in the second term.
 indx = 0;
 # while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
@@ -169,15 +179,16 @@ while indx < 300:
 
 
     print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \n')
-    curr_score = sensor_arena.get_score(point);
+    curr_score = curr_arena.get_score(point);
     point = gdsolver.get_descented_point(point);
-    descented_score = sensor_arena.get_score(point);
+    descented_score = curr_arena.get_score(point);
     deltascore = descented_score - curr_score;
     curr_score = descented_score;
     gdsolver.report();
-    psodata.add_state( np.vstack((psosolver.current_pos,sensor_arena.sensor_loc,sensor_arena.target_loc)),psosolver.centroid,psosolver.spread,psosolver.globalmin)
-    # gddata.add_state(np.vstack((gdsolver.new_point, sensor_arena.sensor_loc, sensor_arena.target_loc)),
-    #                  gdsolver.new_point, 0,gdsolver.sensor_arena.get_score(gdsolver.point))
+    psodata.add_state(np.vstack((psosolver.current_pos, curr_arena.sensor_loc, curr_arena.target_loc)),
+                      psosolver.centroid, psosolver.spread, psosolver.globalmin)
+    # gddata.add_state(np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
+    #                  gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.point))
 #
 ##pso.plot_score()
 
