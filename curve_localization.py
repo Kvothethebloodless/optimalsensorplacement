@@ -68,6 +68,10 @@ max_distance = np.max(distancevector)
 roadlength = max_distance;
 
 
+# targetloc = create_target()
+
+
+
 def nearest_dist(ele, vector):
 	if (np.sum(vector == ele)):
 		return ele
@@ -198,3 +202,4 @@ def solveforlocation():
 
 
 solveforlocation()
+np.save('road', [road_xpoints, road_ypoints])
