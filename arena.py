@@ -1,4 +1,10 @@
 import numpy as np
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+import matplotlib.mlab as mlab
+from mpl_toolkits.mplot3d import axes3d, Axes3D 
+import matplotlib.pyplot as plt
 
 
 # global no_sensors
@@ -6,11 +12,12 @@ import numpy as np
 
 
 
-class arena:  # Class to hold the physical space and make some calculations on it.
+class arena():  # Class to hold the physical space and make some calculations on it.
     def __init__(self, no_sensors, ndim, sensor_loc, target_loc):
         self.no_sensors = no_sensors
         self.sensor_loc = sensor_loc
-        self.create_target_object()
+       # self.create_target_object()
+        self.target_loc = target_loc
         self.get_original_ranges()
         self.get_noisy_ranges()
         self.target_loc = target_loc
@@ -22,7 +29,7 @@ class arena:  # Class to hold the physical space and make some calculations on i
             return
         else:
             return np.linalg.norm(point - self.sensor_loc[i])
-
+    
     def gradient_score(self, point):
         point = np.array(point)
         dim = point.shape[0]
@@ -50,8 +57,8 @@ class arena:  # Class to hold the physical space and make some calculations on i
         self.target_loc = [5, 5]
 
     def get_original_ranges(self):
-        self.orig_ranges = self.sensor_loc - self.target_loc
-        self.orig_ranges = np.linalg.norm(self.orig_ranges, axis=1)
+        a = self.sensor_loc - self.target_loc
+        self.orig_ranges = np.linalg.norm(a, axis=1)
 
     def get_noisy_ranges(self):
         sigma = .1
@@ -73,13 +80,72 @@ class arena:  # Class to hold the physical space and make some calculations on i
 
     def get_score(self, particle_loc):
         score = 0
-        cartesian_distance = np.linalg.norm(particle_loc - self.sensor_loc, axis=1)
+        print(particle_loc)
+        a = particle_loc - self.sensor_loc
+        print(a)
+        cartesian_distance = np.linalg.norm(a, axis=1)
+        print(cartesian_distance)
         # print cartesian_distance
         # cartesian_distance = np.power(cartesian_distance,.5)
         # print cartesian_distance
         score_vector = self.noisy_ranges - cartesian_distance
+        print(score_vector)
         # print score_vector
         score = np.mean(np.power(score_vector, 2))
 
         return score
         # def initalize_swarm_param(self):
+
+    def plotscoresurface(self):
+        from mpl_toolkits.mplot3d import Axes3D
+        from matplotlib import cm
+        from matplotlib.ticker import LinearLocator, FormatStrFormatter
+        #import matplotlib.pyplot as plt
+        #import numpy as np
+
+        fig = plt.figure()
+        ax = fig.gca(projection='3d')
+        X = np.arange(-5, 5, 0.25)
+        Y = np.arange(-5, 5, 0.25)
+        X, Y = np.meshgrid(X, Y)
+        Z = self.get_score((X, Y))
+        (X, Y)
+        surf = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.coolwarm,
+                                                      linewidth=0, antialiased=False)
+        #ax.set_zlim(-1.01, 1.01)
+
+        ax.zaxis.set_major_locator(LinearLocator(10))
+        ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+
+        fig.colorbar(surf, shrink=0.5, aspect=5)
+
+        plt.show()
+    def plot_surface(self):
+        fig = plt.figure()
+       # ax = fig.gca(projection='3d')
+        ax = Axes3D(fig)
+        X1 = np.arange(-5, 5, 0.25)
+        Y2 = np.arange(-5, 5, 0.25)
+        X, Y = np.meshgrid(X1, Y2)
+        Z = np.empty((np.size(X1), np.size(Y2)))
+        for i in range(np.size(X1)):
+            for j in range(np.size(Y2)):
+                Z[i, j] = self.get_score(np.array([X1[i], Y2[j]]))
+
+        Z = np.array(Z)
+        # R = np.sqrt(X**2 + Y**2)
+        # Z = np.sin(R)
+#        s = mlab.mesh(X, Y, Z)
+        surf = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.coolwarm,
+                           linewidth=0, antialiased=False)
+        # ax.set_zlim(-1.01, 1.01)
+
+        ax.zaxis.set_major_locator(LinearLocator(10))
+        ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+
+        fig.colorbar(surf, shrink=0.5, aspect=5)
+
+        plt.show()
+
+
+
