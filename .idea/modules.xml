@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Optimal Sensor Location.iml" filepath="$PROJECT_DIR$/.idea/Optimal Sensor Location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../assignment1/.idea/assignment1.iml" filepath="$PROJECT_DIR$/../assignment1/.idea/assignment1.iml" />
     </modules>
   </component>
 </project>

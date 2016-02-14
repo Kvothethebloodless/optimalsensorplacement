@@ -23,7 +23,7 @@ ndim = 1;
 
 def create_spline_curve():
     x = [0,1,3,6,10]
-    y = [0,1,3,6,10]
+    y = [0,4,7,3,17]
     tck = interpolate.splrep(x,y,s=0)
     return tck
 
@@ -131,6 +131,11 @@ sensorloc = create_sensorlocarray(2, 3)
 targetloc = create_target()
 curr_arena = arena.arena(3, 2, sensorloc, targetloc);
 
+road_xpoints = np.linspace(0,10,1000)
+road_ypoints = interpolate.splev(road_xpoints,tck,der=0)
+plt.plot(road_xpoints,road_ypoints)
+plt.ion()
+plt.show()
 
 
 
@@ -232,6 +237,4 @@ def solveforlocation():
 
 
 solveforlocation()
-road_xpoints = np.linspace(0,10,1000)
-road_ypoints = interpolate.splev(road_xpoints,tck,der=0)
 np.save('road', [road_xpoints, road_ypoints])

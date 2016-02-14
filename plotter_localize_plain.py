@@ -8,9 +8,6 @@ from matplotlib.animation import FuncAnimation
 
 
 # READ DATA FROM FILE
-roaddata = np.load('road.npy')
-road_points = roaddata
-target_loc = roaddata[1]
 timeseriesdata = np.load('psodata2.npy')
 alldata = timeseriesdata
 pos_data = alldata[0]
@@ -49,23 +46,17 @@ min_pos_y = min_pos_x
 
 
 
-min_pos_x =-10 
-min_pos_y =-10
-max_pos_x =20 
-max_pos_y = 30
-
-
-#min_pos_x = -10
-#min_pos_y = 10
-#max_pos_x = -100
-#kmax_pos_y = 10
+min_pos_x = -15
+min_pos_y = -15
+max_pos_x = 15
+max_pos_y = 15
 
 # Create new Figure and an Axes which fills it.
-fig = plt.figure(figsize=(15, 15))
+fig = plt.figure(figsize=(7, 7))
 ax = fig.add_axes([0, 0, 1, 1], frameon=True)
 ax.set_xlim(min_pos_x, max_pos_x), ax.set_xticks(np.arange(min_pos_x, max_pos_x, 1))
 ax.set_ylim(min_pos_y, max_pos_y), ax.set_yticks(np.arange(min_pos_x, max_pos_x, 1))
-ax.plot(road_points[0], road_points[1])
+
 # Create rain data
 # rain_drops = np.zeros(n_drops, dtype=[('position', float, 2),
 #                                      ('size',     float, 1),
