@@ -3,7 +3,7 @@ import optsenpmtscore as ops
 import psosolver as pssol
 import statelogger as stlg
 import gdsolver as gdslr
-import matplotlib.pyplot as plt
+
 
 global no_sensors
 global avgspace
@@ -88,14 +88,14 @@ for i in range(1):
 
     print('\n\n\n')
     print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  \n')
-   # print('GRADIENT DESCENT SOLVER REPORT')
-   # curr_score = currscript_score(point)
-   # point = gdssol.get_descented_point(point)
-   # descented_score = currscript_score(point)
-   # deltascore = descented_score - curr_score
-   # curr_score = descented_score
-   # gdssol.report()
-   # rec_obj_gds.add_state(gdssol.score_func(point))
+    print('GRADIENT DESCENT SOLVER REPORT')
+    curr_score = currscript_score(point)
+    point = gdssol.get_descented_point(point)
+    descented_score = currscript_score(point)
+    deltascore = descented_score - curr_score
+    curr_score = descented_score
+    gdssol.report()
+    rec_obj_gds.add_state(gdssol.score_func(point))
 
 
 
@@ -107,4 +107,4 @@ a = np.load('optms_pso.npy')
 b = np.load('optms_gds.npy')
 plt.plot(a[1])
 plt.plot(b)
-plt.show()	
+plt.show()

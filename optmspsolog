@@ -1,18 +1,14 @@
-2016-01-22 14:33:44,182 - statelogger - INFO - **********STARTING***********
-2016-01-22 14:33:44,182 - statelogger - INFO - Logging to - *optmspsolog*
-2016-01-22 14:33:44,182 - statelogger - INFO - Recieved 3 variables
-2016-01-22 14:33:44,182 - statelogger - INFO - Starting Recording
-2016-01-22 14:33:44,182 - statelogger - INFO - Initialization Finished
-2016-01-22 14:33:46,321 - statelogger - INFO - **********STARTING***********
-2016-01-22 14:33:46,322 - statelogger - INFO - Logging to - *optmsgdslog*
-2016-01-22 14:33:46,322 - statelogger - INFO - Recieved 1 variables
-2016-01-22 14:33:46,322 - statelogger - INFO - Starting Recording
-2016-01-22 14:33:46,322 - statelogger - INFO - Initialization Finished
-2016-01-22 14:33:51,063 - statelogger.add_state - INFO - Recieved 3 variables.
-2016-01-22 14:33:51,064 - statelogger.update_data - DEBUG - Data Update successful
-2016-01-22 14:33:51,064 - statelogger.write_to_file - DEBUG - Written to file succesfully
-2016-01-22 14:33:51,064 - statelogger.add_state - INFO - Added 3 variables to bank
-2016-01-22 14:35:31,761 - statelogger.add_state - INFO - Recieved 1 variables.
-2016-01-22 14:35:31,761 - statelogger.update_data - DEBUG - Data Update successful
-2016-01-22 14:35:31,762 - statelogger.write_to_file - DEBUG - Written to file succesfully
-2016-01-22 14:35:31,762 - statelogger.add_state - INFO - Added 1 variables to bank
+2016-02-18 02:55:37,901 - statelogger - INFO - **********STARTING***********
+2016-02-18 02:55:37,901 - statelogger - INFO - Logging to - *optmspsolog*
+2016-02-18 02:55:37,901 - statelogger - INFO - Recieved 3 variables
+2016-02-18 02:55:37,902 - statelogger - INFO - Starting Recording
+2016-02-18 02:55:37,902 - statelogger - INFO - Initialization Finished
+2016-02-18 02:55:38,210 - statelogger - INFO - **********STARTING***********
+2016-02-18 02:55:38,211 - statelogger - INFO - Logging to - *optmsgdslog*
+2016-02-18 02:55:38,211 - statelogger - INFO - Recieved 1 variables
+2016-02-18 02:55:38,211 - statelogger - INFO - Starting Recording
+2016-02-18 02:55:38,211 - statelogger - INFO - Initialization Finished
+2016-02-18 02:55:38,851 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-02-18 02:55:38,852 - statelogger.update_data - DEBUG - Data Update successful
+2016-02-18 02:55:38,852 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-02-18 02:55:38,852 - statelogger.add_state - INFO - Added 3 variables to bank

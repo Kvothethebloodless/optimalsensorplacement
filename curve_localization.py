@@ -10,28 +10,36 @@ import psosolver as psos  # Pso solver
 import statelogger as stlog  # Logging states and state variables
 
 
-ndim = 1;
+ndim = 1
 # The polynomial is - [1.89427432, 1.8132651, -0.44164664, 0.03026042]
 
 
-# Generate points in x and y co-ordinates with equal cartesian distances by interpolating.
-# Its hard to do that, so I am jsut generating points with equal distance on the x-axis. If I generate enough number of points this way, I guess, the distance wont't
+# Generate points in x and y co-ordinates with equal cartesian distances by
+#interpolating
+# Its hard to do that, so I am jsut generating points with equal distance on
+#the x-axis. If I generate enough number of points this way, I guess, the 
+#distance wont't
 # matter that much.
 
 
-# x is in range 0 to 10;
-coeffarray = [1.89427432, 1.8132651, -0.44164664, 0.03026042];
+# x is in range 0 to 10
+coeffarray = [1.89427432, 1.8132651, -0.44164664, 0.03026042]
+
+
 def create_spline_curve():
-    x = [0,1,3,6,10]
-    y = [2,3,1,6,16]
-    tck = interpolate.splrep(x,y,s=0)
+    x = [0, 1, 3, 6, 10]
+    y = [2, 3, 1, 6, 16]
+    tck = interpolate.splrep(x, y, s=0)
     return tck
 
-def getlengthfromspline(x,tck,length):
-    I = quad(lambda x:np.sqrt(1+(np.power(interpolate.splev(x,tck,der=1),2))),0,x)[0]
+
+def getlengthfromspline(x, tck, length):
+    I = quad(lambda x: np.sqrt(1+(np.power(interpolate.splev(x, tck, der=1), 2)
+                                 )),0,x)[0]
+
     return I-length
 
-def getpoint_spline(dist,tck):
+def getpoint_spline(dist, tck):
     x = fs(getlengthfromspline,0.0,(tck,dist))[0]
     return x,interpolate.splev(x,tck,der=0)
 
@@ -97,61 +105,25 @@ roadlength = 21.4;
 
 
 
-def nearest_dist(ele, vector):
-	if (np.sum(vector == ele)):
-		return ele
-
-	else:
-		less_near = np.max(
-				vector[vector < ele])  # To find the nearest smaller number which is the maximum of lesser elements.
-		greater_near = np.min(vector[vector > ele])
-		dist_lesser = np.abs(ele - less_near)
-		dist_greater = np.abs(ele - greater_near)
-		if dist_lesser > dist_greater:
-			return greater_near
-		else:
-			return less_near
+sensorloc = create_sensorlocarray(2,3)
 
 
-def getpointfromdistance(dist, dist_array, points_array):
-	if np.sum(dist_array == dist):
-		return points_array[dist_array == dist]
-	else:
-		print('Element not found. Breaking...')
-		exit()
 
-
-def getpoint(dist, dist_array, points_array):
-	nearest_dis = nearest_dist(dist, dist_array);
-	nearest_point = getpointfromdistance(nearest_dis, dist_array, points_array)
-	return nearest_point
-
-
-sensorloc = create_sensorlocarray(2, 3)
 targetloc = create_target()
 curr_arena = arena.arena(3, 2, sensorloc, targetloc);
 
 
-
-def scorefunc(dist):
-	point = getpoint(dist, distancevector, road_points)
-	score = curr_arena.get_score(point)
-	return score
 
 
 def scorefunc_spline(dist):
     point =getpoint_spline(dist,tck)
     score = curr_arena.get_score(point)
     return score
-# def gradscorefunc(dist):
-# 	point = getpoint(dist, distancevector, road_points)
-# 	dist_left = (np.roll(road_points==point,1))
-# 	pointleft = road_points(np.roll(road_points==point,-1))
 
 def convertpsotopos(psoobject):
 	l = []
 	for pos in psoobject.current_pos:
-		l.append(np.array(getpoint(pos, distancevector, road_points)))
+		l.append(np.array(getpoint_spline(pos, tck) ))
 	print (np.shape(np.array(l)))
 	return np.vstack(l)
 
@@ -178,7 +150,7 @@ def solveforlocation():
 	# gdsolver = gds.GDS(scorefunc, curr_arena.gradient_score, ExampleSolSpacePoint)
 	psoslr = psos.PSO(scorefunc_spline, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint,
 					  [0 * np.ones(ndim), roadlength * np.ones(ndim)])
-	psoarray = convertpsotopos(psoslr)
+	psoarray =  convertpsotopos(psoslr)
 
 	psodata = stlog.statelogger('psodata2', 'psolog',
 								np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
@@ -216,7 +188,7 @@ def solveforlocation():
 		# gdsolver.report()
 		psoarray = convertpsotopos(psoslr)
 		psodata.add_state(np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
-						  psoslr.centroid, psoslr.spread, psoslr.globalmin)
+        psoslr.centroid, psoslr.spread, psoslr.globalmin)
 	# gddata.add_state(np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
 	#                  gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.point))
 	#

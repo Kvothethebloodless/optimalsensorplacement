@@ -13,24 +13,25 @@ import matplotlib.pyplot as plt
 #Creates a physical array of sensors and target. And has methods to calculate some quantities like,  distances, scores, gradient of the score at a point in the arena, score of the point, 3d plot of the surface of the score.
 
 
-class arena(): 
-    """This class implements an arena. An arena, in compliance with regular meaning, space where the sensors and target are placed. It also takes care of interactions between the sensors and target, like, sampling noisy distance measurements, calculating score of position based on the distance values, etc.
+class arena():  # Class to hold the physical space and make some calculations on it. 
+"""This class implements an arena. An arena, in compliance with regular meaning, space where
+    the sensors and target are placed. It also takes care of interactions between the sensors and
+    target, like, sampling noisy distance measurements, calculating score of position based on the distance values, etc.
 
 
-      Args:
-          no_sensors (int) : No of sensors measuring the target's distance.
+	Args:
+no_sensors (int) : No of sensors measuring the target's distance.
 
-          ndim (int) : No of dimensions of the space that the arena exists. 2 to 3 dimensions permissible.
+ndim (int) : No of dimensions of the space that the arena exists. 2 to 3 dimensions permissible.
 
-          sensor_loc (numpy ndarray): Of size (n,ndim) contains all the sensors' locations in the arena. Necessary argument.
+sensor_loc (numpy ndarray): Of size (n,ndim) contains all the sensors' locations in the arena. Necessary argument.
 
-          target_loc (numpy ndarray): Of size (1,ndim). Denotes the target location. Necessary argument.
-          """
-
-
-
-
+target_loc (numpy ndarray): Of size (1,ndim). Denotes the target location. Necessary argument.
     def __init__(self, no_sensors, ndim, sensor_loc, target_loc):
+	
+
+
+	"""
         self.no_sensors = no_sensors
         self.sensor_loc = sensor_loc
        # self.create_target_object()
@@ -41,14 +42,6 @@ class arena():
         self.ndim = ndim
 
     def dist_from_ithsensor(self, i, point):
-        """ 
-        Gives distances from ith sensor to the point.
-        Returns:
-            distance (int):
-        Raises:
-            Prints exceeded if asked for a sensor's distance measurement which is not availale in
-            the array.
-        """
         if i > self.no_sensors:
             print "Exceeded"
             return
