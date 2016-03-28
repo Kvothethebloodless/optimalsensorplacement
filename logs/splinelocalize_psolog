@@ -1,0 +1,18 @@
+2016-03-28 15:10:48,969 - statelogger - INFO - **********STARTING***********
+2016-03-28 15:10:48,969 - statelogger - INFO - **********STARTING***********
+2016-03-28 15:10:48,969 - statelogger - INFO - Logging to - *logs/splinelocalize_psolog*
+2016-03-28 15:10:48,969 - statelogger - INFO - Logging to - *logs/splinelocalize_psolog*
+2016-03-28 15:10:48,970 - statelogger - INFO - Recieved 4 variables
+2016-03-28 15:10:48,970 - statelogger - INFO - Recieved 4 variables
+2016-03-28 15:10:48,970 - statelogger - INFO - Starting Recording
+2016-03-28 15:10:48,970 - statelogger - INFO - Starting Recording
+2016-03-28 15:10:48,970 - statelogger - INFO - Initialization Finished
+2016-03-28 15:10:48,970 - statelogger - INFO - Initialization Finished
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:10:49,230 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:10:49,230 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:10:49,230 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:10:49,230 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Added 4 variables to bank

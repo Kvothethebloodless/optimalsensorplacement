@@ -2408,3 +2408,1226 @@
 2016-03-28 15:03:15,244 - statelogger.update_data - DEBUG - Data Update successful
 2016-03-28 15:03:15,249 - statelogger.write_to_file - DEBUG - Written to file succesfully
 2016-03-28 15:03:15,249 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:15,296 - statelogger - INFO - **********STARTING***********
+2016-03-28 15:07:15,296 - statelogger - INFO - Logging to - *splinelocalize_psolog*
+2016-03-28 15:07:15,296 - statelogger - INFO - Recieved 4 variables
+2016-03-28 15:07:15,296 - statelogger - INFO - Starting Recording
+2016-03-28 15:07:15,296 - statelogger - INFO - Initialization Finished
+2016-03-28 15:07:15,565 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:15,565 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:15,566 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:15,566 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:15,774 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:15,774 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:15,775 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:15,775 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:15,840 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:15,840 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:15,840 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:15,841 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:15,898 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:15,898 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:15,899 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:15,899 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:15,964 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:15,964 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:15,965 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:15,965 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,034 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,034 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,034 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,035 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,106 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,106 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,107 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,107 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,175 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,176 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,176 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,176 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,244 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,244 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,244 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,245 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,314 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,314 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,315 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,315 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,384 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,384 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,385 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,385 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,461 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,461 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,462 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,462 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,538 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,539 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,539 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,539 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,613 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,613 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,614 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,614 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,687 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,687 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,688 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,688 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,759 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,759 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,760 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,760 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,830 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,830 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,831 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,831 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,901 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,901 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,902 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,902 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:16,974 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:16,974 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:16,975 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:16,975 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,044 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,045 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,045 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,046 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,116 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,116 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,117 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,117 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,186 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,187 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,188 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,188 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,260 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,260 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,261 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,261 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,332 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,332 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,333 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,333 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,403 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,404 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,405 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,406 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,480 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,480 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,481 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,481 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,552 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,552 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,553 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,553 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,625 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,625 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,626 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,626 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,695 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,695 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,696 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,697 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,767 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,768 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,768 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,769 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,839 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,839 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,840 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,840 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,910 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,910 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,911 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,912 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:17,982 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:17,982 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:17,983 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:17,983 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:18,053 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:18,053 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:18,054 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:18,054 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:18,255 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:18,255 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:18,258 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:18,259 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:18,504 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:18,504 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:18,507 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:18,508 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:18,744 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:18,745 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:18,748 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:18,749 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:18,985 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:18,986 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:18,989 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:18,990 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:19,225 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:19,226 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:19,229 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:19,229 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:19,464 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:19,465 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:19,468 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:19,469 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:19,712 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:19,713 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:19,716 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:19,717 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:19,951 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:19,952 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:19,955 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:19,956 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:20,191 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:20,192 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:20,195 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:20,196 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:20,431 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:20,432 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:20,436 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:20,436 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:20,672 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:20,673 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:20,677 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:20,678 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:20,922 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:20,923 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:20,926 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:20,927 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,138 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,139 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,140 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,140 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,204 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,204 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,205 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,205 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,270 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,271 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,272 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,272 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,337 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,337 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,338 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,338 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,405 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,405 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,406 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,406 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,474 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,475 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,476 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,477 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,549 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,549 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,550 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,550 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,623 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,624 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,625 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,626 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,701 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,701 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,703 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,703 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,783 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,784 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,785 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,785 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,861 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,862 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,863 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,864 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:21,938 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:21,938 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:21,940 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:21,940 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,015 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,016 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,017 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,017 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,096 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,096 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,097 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,098 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,172 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,172 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,174 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,174 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,251 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,252 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,253 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,253 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,330 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,331 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,333 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,333 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,412 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,412 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,414 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,414 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,488 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,489 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,490 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,490 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,563 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,564 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,565 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,565 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,638 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,638 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,640 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,640 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,714 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,715 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,716 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,716 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,790 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,790 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,792 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,792 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,864 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,864 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,866 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,866 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:22,940 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:22,941 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:22,942 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:22,943 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,016 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,016 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,017 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,018 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,095 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,096 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,098 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,099 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,175 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,175 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,177 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,177 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,253 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,254 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,255 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,256 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,329 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,330 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,331 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,332 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,407 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,407 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,409 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,409 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,489 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,490 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,491 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,492 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,590 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,591 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,594 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,595 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,726 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,727 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,730 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,731 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,817 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,817 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,819 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,819 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,898 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,899 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,901 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,901 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:23,989 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:23,989 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:23,991 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:23,991 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:24,081 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:24,081 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:24,084 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:24,085 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:24,171 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:24,171 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:24,173 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:24,173 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:24,396 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:24,397 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:24,403 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:24,404 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:24,657 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:24,658 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:24,664 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:24,665 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:24,917 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:24,918 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:24,924 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:24,925 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:25,176 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:25,178 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:25,184 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:25,185 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:25,450 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:25,452 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:25,459 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:25,460 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:25,703 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:25,704 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:25,710 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:25,711 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:25,964 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:25,965 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:25,973 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:25,974 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:26,240 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:26,241 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:26,247 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:26,248 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:26,495 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:26,496 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:26,502 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:26,503 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:26,742 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:26,743 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:26,750 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:26,751 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:26,989 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:26,990 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:26,996 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:26,997 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:27,235 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:27,235 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:27,242 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:27,242 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:27,504 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:27,505 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:27,511 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:27,512 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:27,753 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:27,754 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:27,760 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:27,761 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:28,014 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:28,015 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:28,021 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:28,022 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:28,260 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:28,261 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:28,268 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:28,269 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:28,515 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:28,516 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:28,523 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:28,524 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:28,775 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:28,776 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:28,782 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:28,783 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,034 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,035 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,042 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,043 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,304 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,304 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,306 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,306 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,379 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,380 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,382 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,382 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,456 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,456 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,459 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,459 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,533 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,533 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,535 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,536 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,607 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,608 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,610 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,611 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,683 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,683 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,686 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,686 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,766 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,766 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,768 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,769 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,848 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,848 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,850 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,851 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:29,927 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:29,928 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:29,930 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:29,930 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,003 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,003 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,006 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,006 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,078 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,078 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,080 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,080 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,153 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,154 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,156 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,156 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,227 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,228 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,230 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,230 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,302 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,303 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,305 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,305 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,378 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,379 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,382 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,382 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,456 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,457 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,459 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,459 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,533 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,534 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,536 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,536 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,609 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,609 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,612 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,612 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,685 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,685 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,687 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,688 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,762 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,763 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,765 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,765 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,838 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,838 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,841 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,841 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,916 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,916 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,918 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,919 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:30,992 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:30,992 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:30,995 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:30,995 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,067 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,067 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,070 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,070 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,146 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,146 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,149 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,149 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,223 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,224 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,227 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,227 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,300 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,300 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,303 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,304 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,376 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,376 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,378 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,379 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,451 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,452 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,454 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,455 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,527 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,527 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,530 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,530 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,603 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,603 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,605 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,606 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,678 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,679 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,681 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,682 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,761 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,761 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,764 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,764 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,845 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,846 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,850 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,850 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:31,940 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:31,940 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:31,943 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:31,944 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,040 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,041 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,044 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,044 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,119 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,120 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,122 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,123 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,198 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,198 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,201 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,201 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,276 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,276 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,280 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,280 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,356 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,357 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,365 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,366 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,602 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,603 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,612 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,612 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:32,860 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:32,861 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:32,870 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:32,870 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:33,121 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:33,122 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:33,131 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:33,132 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:33,380 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:33,381 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:33,390 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:33,391 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:33,639 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:33,640 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:33,650 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:33,651 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:33,907 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:33,908 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:33,917 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:33,918 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:34,156 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:34,157 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:34,166 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:34,167 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:34,404 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:34,405 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:34,419 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:34,420 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:34,658 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:34,659 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:34,668 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:34,668 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:34,906 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:34,908 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:34,917 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:34,918 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:35,166 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:35,167 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:35,176 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:35,177 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:35,419 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:35,420 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:35,429 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:35,430 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:35,671 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:35,672 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:35,681 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:35,682 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:35,920 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:35,921 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:35,931 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:35,931 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,168 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,169 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,179 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,180 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,417 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,418 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,428 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,429 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,494 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,494 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,497 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,497 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,562 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,562 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,565 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,565 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,628 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,629 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,632 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,632 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,698 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,698 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,701 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,701 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,768 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,768 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,771 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,771 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,841 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,842 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,846 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,847 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,916 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,916 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,919 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,919 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:36,987 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:36,987 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:36,990 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:36,990 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,062 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,063 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,066 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,066 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,135 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,136 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,139 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,140 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,210 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,210 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,213 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,213 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,285 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,285 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,288 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,288 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,362 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,362 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,366 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,366 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,436 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,437 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,440 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,440 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,511 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,511 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,515 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,515 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,586 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,587 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,590 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,590 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,662 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,663 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,666 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,666 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,740 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,740 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,744 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,744 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,816 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,817 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,821 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,822 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,894 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,895 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,898 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,898 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:37,971 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:37,971 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:37,978 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:37,978 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,051 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,051 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,054 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,055 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,128 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,129 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,132 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,133 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,205 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,205 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,208 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,209 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,279 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,280 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,285 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,285 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,357 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,357 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,361 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,361 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,434 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,435 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,438 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,438 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,509 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,510 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,513 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,514 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,585 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,586 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,589 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,589 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,661 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,661 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,665 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,665 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,735 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,736 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,740 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,740 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,811 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,811 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,815 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,815 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,887 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,887 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,890 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,891 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:38,963 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:38,964 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:38,968 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:38,968 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,039 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,040 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,043 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,043 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,116 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,116 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,120 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,120 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,192 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,192 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,196 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,197 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,268 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,268 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,271 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,271 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,343 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,343 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,347 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,347 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,419 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,419 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,423 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,423 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,496 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,497 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,508 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,509 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,748 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:39,749 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:39,761 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:39,762 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:39,999 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:40,000 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:40,012 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:40,013 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:40,251 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:40,252 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:40,264 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:40,265 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:40,501 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:40,502 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:40,514 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:40,515 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:40,753 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:40,754 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:40,766 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:40,767 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:41,002 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:41,003 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:41,014 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:41,015 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:41,259 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:41,260 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:41,282 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:41,283 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:41,574 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:41,575 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:41,587 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:41,588 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:41,855 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:41,856 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:41,871 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:41,872 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:42,124 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:42,125 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:42,137 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:42,138 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:42,376 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:42,377 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:42,389 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:42,390 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:42,628 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:42,629 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:42,641 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:42,642 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:42,881 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:42,882 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:42,894 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:42,895 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:43,134 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:43,135 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:43,148 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:43,148 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:43,394 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:43,395 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:43,408 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:43,409 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:43,661 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:43,662 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:43,677 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:43,678 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:43,945 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:43,946 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:43,959 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:43,960 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,198 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,199 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,211 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,212 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,448 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,449 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,461 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,462 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,617 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,618 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,622 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,622 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,683 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,684 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,687 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,687 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,748 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,748 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,752 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,752 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,814 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,814 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,817 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,817 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,881 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,881 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,884 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,885 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:44,949 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:44,949 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:44,953 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:44,953 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,017 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,018 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,021 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,022 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,088 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,089 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,093 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,093 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,161 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,162 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,168 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,168 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,236 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,237 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,241 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,241 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,310 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,310 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,314 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,314 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,384 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,384 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,388 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,388 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,457 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,457 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,461 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,462 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,531 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,532 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,536 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,536 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,604 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,604 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,609 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,609 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,679 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,680 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,683 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,684 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,755 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,755 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,760 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,760 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,831 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,831 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,835 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,835 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,905 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,906 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,910 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,910 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:45,981 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:45,981 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:45,986 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:45,986 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,057 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,057 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,062 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,062 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,134 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,135 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,139 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,139 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,208 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,209 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,213 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,213 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,284 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,285 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,289 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,289 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,359 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,359 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,364 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,365 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,437 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,437 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,442 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,442 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,515 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,516 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,520 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,520 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,593 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,593 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,599 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,599 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,672 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,672 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,677 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,678 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,749 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,749 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,754 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,754 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,827 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,828 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,832 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,833 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,907 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,908 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,912 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,913 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:46,985 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:46,985 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:46,992 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:46,993 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,066 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,066 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,071 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,071 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,145 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,145 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,149 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,150 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,222 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,223 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,229 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,229 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,303 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,303 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,308 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,308 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,383 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,383 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,388 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,388 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,460 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,461 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,465 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,465 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,541 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,541 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,546 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,546 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,618 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,618 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,624 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,624 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:47,799 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:47,800 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:47,815 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:47,816 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:48,060 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:48,061 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:48,076 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:48,077 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:48,315 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:48,316 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:48,330 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:48,331 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:48,570 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:48,571 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:48,586 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:48,587 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:48,824 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:48,825 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:48,840 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:48,841 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:49,091 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:49,092 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:49,107 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:49,108 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:49,357 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:49,358 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:49,373 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:49,373 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:49,625 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:49,626 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:49,641 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:49,643 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:49,891 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:49,892 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:49,907 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:49,909 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:50,154 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:50,155 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:50,171 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:50,172 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:50,422 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:50,422 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:50,438 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:50,439 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:50,681 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:50,682 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:50,698 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:50,698 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:50,945 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:50,946 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:50,962 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:50,963 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:51,207 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:51,208 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:51,224 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:51,225 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:51,468 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:51,469 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:51,485 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:51,486 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:51,732 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:51,732 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:51,748 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:51,749 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:51,997 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:51,998 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,014 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,015 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,272 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,273 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,288 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,289 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,535 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,536 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,552 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,553 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,764 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,764 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,768 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,768 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,836 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,836 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,840 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,841 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,906 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,907 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,912 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,912 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:52,977 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:52,978 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:52,982 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:52,983 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,050 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,052 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,057 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,058 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,126 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,127 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,131 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,132 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,199 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,200 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,204 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,204 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,275 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,275 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,284 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,285 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,357 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,358 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,364 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,365 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,437 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,437 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,442 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,442 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,514 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,515 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,521 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,522 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,594 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,595 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,601 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,601 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,676 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,676 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,682 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,682 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,758 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,759 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,765 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,765 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,840 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,841 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,847 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,847 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:53,926 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:53,926 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:53,933 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:53,934 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:54,009 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:54,010 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:54,016 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:54,016 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:54,093 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:54,093 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:54,100 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:54,101 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:54,180 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:54,181 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:54,187 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:54,188 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:07:54,263 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:07:54,264 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:07:54,270 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:07:54,271 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:10:37,084 - statelogger - INFO - **********STARTING***********
+2016-03-28 15:10:37,085 - statelogger - INFO - Logging to - *logs/splinelocalize_psolog*
+2016-03-28 15:10:37,085 - statelogger - INFO - Recieved 4 variables
+2016-03-28 15:10:37,085 - statelogger - INFO - Starting Recording
+2016-03-28 15:10:37,085 - statelogger - INFO - Initialization Finished
+2016-03-28 15:10:37,326 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:10:37,327 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:10:37,327 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:10:37,327 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-03-28 15:10:48,969 - statelogger - INFO - **********STARTING***********
+2016-03-28 15:10:48,969 - statelogger - INFO - Logging to - *logs/splinelocalize_psolog*
+2016-03-28 15:10:48,970 - statelogger - INFO - Recieved 4 variables
+2016-03-28 15:10:48,970 - statelogger - INFO - Starting Recording
+2016-03-28 15:10:48,970 - statelogger - INFO - Initialization Finished
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-03-28 15:10:49,230 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-28 15:10:49,230 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-28 15:10:49,230 - statelogger.add_state - INFO - Added 4 variables to bank

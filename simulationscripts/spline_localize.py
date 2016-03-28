@@ -6,9 +6,9 @@ from scipy.integrate import quad
 
 import matplotlib.pyplot as plt
 
-import arena as arena
-import psosolver as psos  # Pso solver
-import statelogger as stlog  # Logging states and state variables
+import src.arena as arena
+import solvers.psosolver as psos  # Pso solver
+import utilities.statelogger as stlog  # Logging states and state variables
 
 
 ndim = 1;
@@ -37,17 +37,8 @@ def getpoint_spline(dist,tck):
     return x,interpolate.splev(x,tck,der=0).item()
 
 
-
-
-
-
-
-
 def create_sensorlocarray(n_dim, n_sensors):
 	return np.random.random((n_sensors, n_dim)) * 10
-
-
-
 
 
 tck = create_spline_curve()
@@ -64,38 +55,6 @@ roadlength = 21.4;
 
 # targetloc = create_target()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 sensorloc = create_sensorlocarray(2, 3)
 targetloc = create_target()
 curr_arena = arena.arena(3, 2, sensorloc, targetloc);
@@ -105,12 +64,6 @@ road_ypoints = interpolate.splev(road_xpoints,tck,der=0)
 plt.plot(road_xpoints,road_ypoints)
 plt.ion()
 plt.show()
-
-
-
-
-
-
 
 
 def scorefunc_spline(dist):
@@ -166,7 +119,7 @@ def solveforlocation():
 	# while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
 	point = ExampleSolSpacePoint
 
-	while indx < 300:
+	while indx < 1:
 		psoslr.update_pos()
 		psoslr.update_currscores()
 		psoslr.update_selfmin()
@@ -206,4 +159,4 @@ def solveforlocation():
 
 
 solveforlocation()
-np.save(os.path.join('simulationdata/'+'spline_road'), [road_xpoints, road_ypoints])
+np.save(os.path.join('simulationdata/','spline_road'), [road_xpoints, road_ypoints])
