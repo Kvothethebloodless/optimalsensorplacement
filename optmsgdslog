@@ -1,9 +1,0 @@
-2016-02-18 02:55:38,210 - statelogger - INFO - **********STARTING***********
-2016-02-18 02:55:38,211 - statelogger - INFO - Logging to - *optmsgdslog*
-2016-02-18 02:55:38,211 - statelogger - INFO - Recieved 1 variables
-2016-02-18 02:55:38,211 - statelogger - INFO - Starting Recording
-2016-02-18 02:55:38,211 - statelogger - INFO - Initialization Finished
-2016-02-18 02:55:38,851 - statelogger.add_state - INFO - Recieved 3 variables.
-2016-02-18 02:55:38,852 - statelogger.update_data - DEBUG - Data Update successful
-2016-02-18 02:55:38,852 - statelogger.write_to_file - DEBUG - Written to file succesfully
-2016-02-18 02:55:38,852 - statelogger.add_state - INFO - Added 3 variables to bank

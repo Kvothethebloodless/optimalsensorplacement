@@ -57,7 +57,7 @@ def currscript_gradient(sensorloc): #Same as above,
 # def gradient_glb(sensorloc):
 #     return
 #
-psol = pssol.PSO(currscript_score,2,no_sensors*dim,.5,.5,1,-50+np.random.random(no_sensors*dim)*100,[-10*np.ones(no_sensors*dim),10*np.ones(no_sensors*dim)])
+psol = pssol.PSO(currscript_score, 20, no_sensors*dim,.5,.5,1,-50+np.random.random(no_sensors*dim)*100,[-10*np.ones(no_sensors*dim),10*np.ones(no_sensors*dim)])
 
 point = np.random.random(no_sensors*dim)
 gdssol = gdslr.GDS(currscript_score,currscript_gradient,point)
@@ -67,7 +67,7 @@ rec_obj_pso = stlg.statelogger('optms_pso','optmspsolog',psol.curr_score,psol.gl
 rec_obj_gds = stlg.statelogger('optms_gds','optmsgdslog',gdssol.score_func(point))
 
 
-for i in range(1):
+for i in range(100):
     psol.update_pos()
     psol.update_currscores()
     psol.update_selfmin()
@@ -102,9 +102,10 @@ for i in range(1):
 
 savesensorarray(psol.globalminlocation,'psosolsens.npy')
 savesensorarray(point,'gdssolsens.npy')
-
+"""
 a = np.load('optms_pso.npy')
 b = np.load('optms_gds.npy')
 plt.plot(a[1])
 plt.plot(b)
 plt.show()	
+"""

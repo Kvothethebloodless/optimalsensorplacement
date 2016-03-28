@@ -1,0 +1,62 @@
+2016-03-01 22:48:45,365 - statelogger - INFO - **********STARTING***********
+2016-03-01 22:48:45,365 - statelogger - INFO - Logging to - *optmspsolog*
+2016-03-01 22:48:45,365 - statelogger - INFO - Recieved 3 variables
+2016-03-01 22:48:45,365 - statelogger - INFO - Starting Recording
+2016-03-01 22:48:45,365 - statelogger - INFO - Initialization Finished
+2016-03-01 22:48:45,616 - statelogger - INFO - **********STARTING***********
+2016-03-01 22:48:45,616 - statelogger - INFO - Logging to - *optmsgdslog*
+2016-03-01 22:48:45,616 - statelogger - INFO - Recieved 1 variables
+2016-03-01 22:48:45,616 - statelogger - INFO - Starting Recording
+2016-03-01 22:48:45,616 - statelogger - INFO - Initialization Finished
+2016-03-01 22:48:50,756 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:48:50,756 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:48:50,757 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:48:50,757 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:48:55,813 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:48:55,813 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:48:55,813 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:48:55,813 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:01,274 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:01,274 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:01,275 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:01,275 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:06,494 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:06,495 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:06,495 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:06,495 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:11,659 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:11,659 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:11,659 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:11,660 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:16,652 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:16,652 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:16,652 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:16,652 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:22,109 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:22,109 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:22,110 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:22,110 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:27,272 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:27,272 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:27,272 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:27,272 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:32,628 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:32,628 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:32,628 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:32,628 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:37,809 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:37,809 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:37,810 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:37,810 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:42,993 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:42,993 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:42,993 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:42,993 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:48,344 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:48,345 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:48,345 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:48,345 - statelogger.add_state - INFO - Added 3 variables to bank
+2016-03-01 22:49:53,490 - statelogger.add_state - INFO - Recieved 3 variables.
+2016-03-01 22:49:53,491 - statelogger.update_data - DEBUG - Data Update successful
+2016-03-01 22:49:53,491 - statelogger.write_to_file - DEBUG - Written to file succesfully
+2016-03-01 22:49:53,492 - statelogger.add_state - INFO - Added 3 variables to bank

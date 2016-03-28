@@ -48,8 +48,7 @@ class PSO:
 
         for i in range(self.no_dim):
             # print i
-            ithdim_pos = np.random.random(self.no_particles)
-            ithdim_pos = scale_array(ithdim_pos, self.innerboundary[i], self.outerboundary[i])
+            ithdim_pos = np.random.uniform(self.innerboundary[i], self.outerboundary[i], self.no_particles)
             list_pos.append(ithdim_pos)
 
         pos_array = np.array(list_pos)
