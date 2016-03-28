@@ -5,11 +5,11 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
 # import matplotlib.pyplot as plt
-import gdsolver as gds  # GDS solver
-import psosolver as psos  # Pso solver
-import statelogger as stlog  # Logging states and state variables
+import solvers.gdsolver as gds  # GDS solver
+import solvers.psosolver as psos  # Pso solver
+import utilities.statelogger as stlog  # Logging states and state variables
 
-import arena as ar  # Class to place sensors and target in an imaginary arena and calculate score, gradient_score, ranges,noisy ranges etc.
+import src.arena as ar  # Class to place sensors and target in an imaginary arena and calculate score, gradient_score, ranges,noisy ranges etc.
 
 global no_sensors
 global ndim
@@ -75,7 +75,7 @@ def solveforlocation():
     psosolver = psos.PSO(curr_arena.get_score, 10, ndim, 1, 1.5, 1, ExampleSolSpacePoint,
                          [-10 * np.ones(ndim), 10 * np.ones(ndim)])
 
-    psodata = stlog.statelogger('psodata2', 'psolog',
+    psodata = stlog.statelogger('localize_psodata', 'localize_psolog',
                                 np.vstack((psosolver.current_pos, curr_arena.sensor_loc, curr_arena.target_loc)),
                                 psosolver.centroid, psosolver.spread,
                                 psosolver.globalmin)  # Plotter is  just expecting these.

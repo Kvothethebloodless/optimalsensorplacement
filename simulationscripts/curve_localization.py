@@ -1,13 +1,14 @@
 import numpy as np
+import os
 from scipy import interpolate
 from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
 
 import matplotlib.pyplot as plt
 
-import arena as arena
-import psosolver as psos  # Pso solver
-import statelogger as stlog  # Logging states and state variables
+import src.arena as arena
+import solvers.psosolver as psos  # Pso solver
+import utilities.statelogger as stlog  # Logging states and state variables
 
 
 ndim = 1
@@ -152,10 +153,10 @@ def solveforlocation():
 					  [0 * np.ones(ndim), roadlength * np.ones(ndim)])
 	psoarray =  convertpsotopos(psoslr)
 
-	psodata = stlog.statelogger('psodata2', 'psolog',
-								np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
-								psoslr.centroid, psoslr.spread,
-								psoslr.globalmin)  # Plotter is  just expecting these.
+	psodata = stlog.statelogger('curvelocalization_psodata' ,
+                             'curvelocalization_psolog',
+                             np.vstack((psoarray,curr_arena.sensor_loc,
+                                        curr_arena.target_loc)),psoslr.centroid, psoslr.spread,psoslr.globalmin)  # Plotter is  just expecting these.
 
 	# gddata = stlog.statelogger('gddata2', 'gdslog',np.vstack((gdsolver.new_point, curr_arena.sensor_loc, curr_arena.target_loc)),
 	#                            gdsolver.new_point, 0,gdsolver.curr_arena.get_score(gdsolver.new_point)) #Combined position data of moving point sensors and sensor target, i.e the object to be localized, in the first vstack array.
@@ -164,7 +165,7 @@ def solveforlocation():
 	# while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
 	point = ExampleSolSpacePoint
 
-	while indx < 100:
+	while indx < 1:
 		psoslr.update_pos()
 		psoslr.update_currscores()
 		psoslr.update_selfmin()
@@ -206,4 +207,5 @@ def solveforlocation():
 solveforlocation()
 road_xpoints = np.linspace(0,10,1000)
 road_ypoints = interpolate.splev(road_xpoints,tck,der=0)
-np.save('road', [road_xpoints, road_ypoints])
+road_filename = os.path.join('simulationdata/','road.npy')
+np.save(road_filename, [road_xpoints, road_ypoints])

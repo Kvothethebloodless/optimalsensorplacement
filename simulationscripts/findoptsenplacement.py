@@ -1,8 +1,9 @@
 import numpy as np
-import optsenpmtscore as ops
-import psosolver as pssol
-import statelogger as stlg
-import gdsolver as gdslr
+import os
+import src.optsenpmtscore as ops
+import solvers.psosolver as pssol
+import utilities.statelogger as stlg
+import solvers.gdsolver as gdslr
 import matplotlib.pyplot as plt
 
 global no_sensors
@@ -15,7 +16,8 @@ global dim
 dim = 2
 no_sensors = 4
 #avgspace = np.random.random((100,2))*10-(np.ones((100,2))*5)
-road_points = np.load('road.npy')
+road_points = np.load(os.path.join('simulationdata/','road.npy'))
+
 avgspace = zip(road_points[0],road_points[1]) #For placement on a road #[5,5]+np.random.random((100,2))/10
 avgspace_some = avgspace[0:100:10]
 print ('Working on '+str(np.size(avgspace_some[0]))+'points')
@@ -23,6 +25,7 @@ alpha = 0.01
 sigma = .1
 
 def savesensorarray(sensorloc,name):
+    name = os.path.join('simulationresults/optimalsensorplacement/', name)
     expsensorarray = np.reshape(sensorloc,(no_sensors,dim))
     np.save(name,expsensorarray)
 
@@ -67,7 +70,7 @@ rec_obj_pso = stlg.statelogger('optms_pso','optmspsolog',psol.curr_score,psol.gl
 rec_obj_gds = stlg.statelogger('optms_gds','optmsgdslog',gdssol.score_func(point))
 
 
-for i in range(100):
+for i in range(1):
     psol.update_pos()
     psol.update_currscores()
     psol.update_selfmin()

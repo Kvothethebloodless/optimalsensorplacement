@@ -1,18 +1,21 @@
 import logging
+import os
 import numpy as    np
 
 
 class statelogger():
 	def __init__(self,datafilename,logfilename,*args):
+		
 		#datafilename = filename to log the state data.
 		#logfilename = filename to log statements.
 		self.no_variables = len(args);
 		self.filename = datafilename+str('.npy');
+		self.filename  = os.path.join('simulationresults/',self.filename)
 		self.statenumber = 1;
-
 		self.all_states = []
 		self.logfile = logfilename
-		a = open(self.logfile,'w+')
+		self.logfile = os.path.join('logs/' , self.logfile)
+		a = open(self.logfile ,'w+')
 		a.close()
 
 		self.logger = logging.getLogger("statelogger")

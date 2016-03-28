@@ -1,4 +1,5 @@
 import numpy as np
+import os
 from scipy import interpolate
 from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
@@ -49,43 +50,11 @@ def create_sensorlocarray(n_dim, n_sensors):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 tck = create_spline_curve()
 
 def create_target():
 	targetdist = 5
 	return getpoint_spline(targetdist,tck)
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -185,7 +154,7 @@ def solveforlocation():
 					  [0 * np.ones(ndim), roadlength * np.ones(ndim)])
 	psoarray = convertpsotopos(psoslr)
 
-	psodata = stlog.statelogger('psodata2', 'psolog',
+	psodata = stlog.statelogger('splinelocalize_psodata2', 'splinelocalize_psolog',
 								np.vstack((psoarray, curr_arena.sensor_loc, curr_arena.target_loc)),
 								psoslr.centroid, psoslr.spread,
 								psoslr.globalmin)  # Plotter is  just expecting these.
@@ -237,4 +206,4 @@ def solveforlocation():
 
 
 solveforlocation()
-np.save('road', [road_xpoints, road_ypoints])
+np.save(os.path.join('simulationdata/'+'spline_road'), [road_xpoints, road_ypoints])
