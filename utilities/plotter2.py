@@ -1,5 +1,5 @@
 import numpy as np
-
+import os
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
@@ -8,10 +8,13 @@ from matplotlib.animation import FuncAnimation
 
 
 # READ DATA FROM FILE
-roaddata = np.load('road.npy')
+road_filename = os.path.join('simulationdata/','road.npy')
+roaddata = np.load(road_filename)
 road_points = roaddata
 target_loc = roaddata[1]
-timeseriesdata = np.load('psodata2.npy')
+timedata_filename =
+os.path.join('simulationresults/','curvelocalization_psodata.npy')
+timeseriesdata = np.load(timedata_filename)
 alldata = timeseriesdata
 pos_data = alldata[0]
 centroid_data = alldata[1]

@@ -165,7 +165,7 @@ def solveforlocation():
 	# while np.abs(np.amin(pso.curr_score)-lst_score)>.001:
 	point = ExampleSolSpacePoint
 
-	while indx < 1:
+	while indx < 5:
 		psoslr.update_pos()
 		psoslr.update_currscores()
 		psoslr.update_selfmin()

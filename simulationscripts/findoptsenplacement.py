@@ -19,10 +19,10 @@ no_sensors = 4
 road_points = np.load(os.path.join('simulationdata/','road.npy'))
 
 avgspace = zip(road_points[0],road_points[1]) #For placement on a road #[5,5]+np.random.random((100,2))/10
-avgspace_some = avgspace[0:100:10]
+avgspace_some = avgspace[0:1000:10]
 print ('Working on '+str(np.size(avgspace_some[0]))+'points')
-alpha = 0.01
-sigma = .1
+alpha = 2.77 
+sigma = 1
 
 def savesensorarray(sensorloc,name):
     name = os.path.join('simulationresults/optimalsensorplacement/', name)
@@ -36,9 +36,9 @@ def currscript_score(sensorloc): #To give a score function handle to the PSOSOLV
     print ('score called            ')
     score = 0
     gradient = 0
-    for ele in avgspace:
+    for ele in avgspace_some:
         curr_obj = ops.optsenpmt(ele,no_sensors,dim,alpha,sigma)
-        score+=curr_obj.score(sensorloc)
+        score += curr_obj.score(sensorloc)
         # print(curr_obj.score(sensorloc));
         i+=1
     return 0 - score / i
@@ -47,7 +47,7 @@ def currscript_score(sensorloc): #To give a score function handle to the PSOSOLV
 def currscript_gradient(sensorloc): #Same as above,
     i = 0
     gradient = 0
-    for ele in avgspace:
+    for ele in avgspace_some:
         curr_obj = ops.optsenpmt(ele,no_sensors,dim,alpha,sigma)
         gradient+=curr_obj.gradient_score(sensorloc)
         i += 1
@@ -70,7 +70,7 @@ rec_obj_pso = stlg.statelogger('optms_pso','optmspsolog',psol.curr_score,psol.gl
 rec_obj_gds = stlg.statelogger('optms_gds','optmsgdslog',gdssol.score_func(point))
 
 
-for i in range(1):
+for i in range(100):
     psol.update_pos()
     psol.update_currscores()
     psol.update_selfmin()
