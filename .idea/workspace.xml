@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Fully working. Excellent results. Need to add animation. Will do soon.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/terrain.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visualization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/plot3dterrain.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/plotter3droad.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/scatterplotanimation.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simulationdata/terrian_mt.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simulationscripts/.spline_localize.py.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/terrian_mt.npy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationresults/psodata.npy" afterPath="$PROJECT_DIR$/simulationresults/psodata.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/spline_localize.py" afterPath="$PROJECT_DIR$/simulationscripts/spline_localize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solvers/psosolver.py" afterPath="$PROJECT_DIR$/solvers/psosolver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arena.py" afterPath="$PROJECT_DIR$/src/arena.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/plotter2.py" afterPath="$PROJECT_DIR$/utilities/plotter2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/statelogger.py" afterPath="$PROJECT_DIR$/utilities/statelogger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/VisulaizationTest-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/VisulaizationTest-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VisulaizationTest.ipynb" afterPath="$PROJECT_DIR$/VisulaizationTest.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" afterPath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visualization.py" afterPath="$PROJECT_DIR$/src/visualization.py" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,13 +72,14 @@
       <file leaf-file-name="visualization.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55860615">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.057022177">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#456#677#0" expanded="true" />
-                <element signature="e#763#1075#0" expanded="true" />
-                <element signature="e#1112#1706#0" expanded="true" />
+                <element signature="e#480#701#0" expanded="true" />
+                <element signature="e#1222#1989#0" expanded="true" />
+                <element signature="e#2052#2829#0" expanded="true" />
+                <element signature="e#2869#3414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +88,8 @@
       <file leaf-file-name="3dterrainvisualization.pu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state vertical-scroll-proportion="-12.46875">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#47#1" expanded="true" />
                 <element signature="e#48#73#0" expanded="true" />
@@ -1183,18 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#47#1" expanded="true" />
-            <element signature="e#48#73#0" expanded="true" />
-            <element signature="e#155#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/terrain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1212,15 +1188,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.46875">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#1" expanded="true" />
+            <element signature="e#48#73#0" expanded="true" />
+            <element signature="e#155#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/visualization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55860615">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.057022177">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#456#677#0" expanded="true" />
-            <element signature="e#763#1075#0" expanded="true" />
-            <element signature="e#1112#1706#0" expanded="true" />
+            <element signature="e#480#701#0" expanded="true" />
+            <element signature="e#1222#1989#0" expanded="true" />
+            <element signature="e#2052#2829#0" expanded="true" />
+            <element signature="e#2869#3414#0" expanded="true" />
           </folding>
         </state>
       </provider>

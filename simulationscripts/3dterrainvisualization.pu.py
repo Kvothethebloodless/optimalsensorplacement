@@ -18,6 +18,9 @@ def scale(array,maxval, minval):
 bmp1 = tvtk.JPEGReader()
 bmp1.file_name="simulationdata/test2.jpg" #any jpeg file
 
+image = cv2.imread("simulationdata/test2.jpg")
+
+
 my_texture=tvtk.Texture()
 my_texture.interpolate=0
 my_texture.set_input(0,bmp1.get_output())
