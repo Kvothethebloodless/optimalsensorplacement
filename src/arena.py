@@ -87,7 +87,7 @@ class arena():
         sigma = .1
 
         mean_vector = self.orig_ranges
-        path_loss_coeff = 2.77 
+        path_loss_coeff = .77
         variance_vector = sigma * (np.power(self.orig_ranges, path_loss_coeff))
         # print variance_vector
         self.mean = mean_vector

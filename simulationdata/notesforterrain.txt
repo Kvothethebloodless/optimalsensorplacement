@@ -1,0 +1,43 @@
+he LAT, LON are in a confusing manner.
+
+First, the geographical arrangement considering, LOW as smallest
+latitude/longitude and HIGH as largest latitude/longitude. 
+
+HIGH,LOW ---------------- HIGH, HIGH
+    |                         |
+    |                         |
+    |                         |
+    |                         |
+    |                         |
+    |                         |
+    |                         |
+LOW, LOW ---------------- LOW,HIGH
+
+
+The data given in the original .mat file is ambigious.
+
+  N
+W--E
+  S
+
+
+--------------4.6KM----------------
+|
+|
+2KM
+|
+|
+-----------------------------------
+
+Look into attached images for explanation. 
+
+
+
+So, after a lot of tweaking and correcting around, I've finally come up with an understandble format. If numpy arrays represnet a matrix like this,
+
+(0,0)------------------(0,10)							
+
+
+
+
+(10,0)                (10,10)

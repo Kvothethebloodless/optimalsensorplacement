@@ -1,26 +1,34 @@
 import logging
 import os
-import numpy as    np
-
+import numpy as  np
+import time as t
+import os
 
 class statelogger():
 	def __init__(self,datafilename,logfilename,*args):
 		
 		#datafilename = filename to log the state data.
-		#logfilename = filename to log statements.
+		#logfilename = f*ilename to log statements.
 		self.no_variables = len(args);
+		# ti = t.time()
 		self.filename = datafilename+str('.npy');
 		self.filename  = os.path.join('simulationresults/',self.filename)
-		self.statenumber = 1;
+		if os.path.exists(self.filename):
+			print('Exists')
+			os.remove(self.filename)
+
+		# self.datafile  = open(self.filename, 'w+')
+		self.statenumber = 1
 		self.all_states = []
-		self.logfile = logfilename
+		self.logfile = logfilename+str('.txt')
 		self.logfile = os.path.join('logs/' , self.logfile)
-		a = open(self.logfile ,'w+')
+
+		a = open(self.logfile ,'w+') #TO make sure the log file is not appended to an existing one, but is wiped off to add new log data
 		a.close()
 
 		self.logger = logging.getLogger("statelogger")
 
-		self.logger.setLevel(logging.DEBUG) #Set to Debug only to print every function call
+		self.logger.setLevel(logging.INFO) #Set to Debug only to print every function call
 
 		self.fh = logging.FileHandler(self.logfile)
 		formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -79,7 +87,9 @@ class statelogger():
 			self.write_to_file()
 			logger_new_state.info('Added %s variables to bank' %(len(args)))
 	def close_logger(self):
-		self.logger.info('**********FINISEHD***********')
-
+		self.logger.info('**********FINISHED***********')
 		self.logger.removeHandler(self.fh)
+		# logging.shutdown()
+		# return self.datafile.close()
+
 	#def report_log_io():

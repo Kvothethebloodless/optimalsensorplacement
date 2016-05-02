@@ -6,8 +6,7 @@ from scipy.integrate import quad
 
 import matplotlib.pyplot as plt
 
-import src.arena as arena
-import solvers.psosolver as psos  # Pso solver
+import src.arena as arena import solvers.psosolver as psos  # Pso solver
 import utilities.statelogger as stlog  # Logging states and state variables
 
 
@@ -33,7 +32,8 @@ def getlengthfromspline(x,tck,length):
     return I-length
 
 def getpoint_spline(dist,tck):
-    x = fs(getlengthfromspline,0.0,(tck,dist))[0]
+    x = fs(getlengthfromspline,0.0,(tck,dist))[0] #fs is a solver. It solves for dist_spline  =
+    #req_dist
     return x,interpolate.splev(x,tck,der=0).item()
 
 

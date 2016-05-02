@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Fully working. Excellent results. Need to add animation. Will do soon.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plotter_localize_plain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Optimal Sensor Location.iml" afterPath="$PROJECT_DIR$/.idea/Optimal Sensor Location.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/terrain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visualization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/plot3dterrain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/plotter3droad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/scatterplotanimation.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simulationdata/terrian_mt.npy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simulationscripts/.spline_localize.py.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/terrian_mt.npy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gdssolsens.npy" afterPath="$PROJECT_DIR$/gdssolsens.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optms_gds.npy" afterPath="$PROJECT_DIR$/optms_gds.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optms_pso.npy" afterPath="$PROJECT_DIR$/optms_pso.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmsgdslog" afterPath="$PROJECT_DIR$/optmsgdslog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optmspsolog" afterPath="$PROJECT_DIR$/optmspsolog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter2.py" afterPath="$PROJECT_DIR$/plotter2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psodata2.npy" afterPath="$PROJECT_DIR$/psodata2.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psolog" afterPath="$PROJECT_DIR$/psolog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psosolsens.npy" afterPath="$PROJECT_DIR$/psosolsens.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spline_localize.py" afterPath="$PROJECT_DIR$/spline_localize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationresults/psodata.npy" afterPath="$PROJECT_DIR$/simulationresults/psodata.npy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/spline_localize.py" afterPath="$PROJECT_DIR$/simulationscripts/spline_localize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solvers/psosolver.py" afterPath="$PROJECT_DIR$/solvers/psosolver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arena.py" afterPath="$PROJECT_DIR$/src/arena.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/plotter2.py" afterPath="$PROJECT_DIR$/utilities/plotter2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/statelogger.py" afterPath="$PROJECT_DIR$/utilities/statelogger.py" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,104 +39,134 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="connecteccomponents.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../assignment1/connecteccomponents.py">
+      <file leaf-file-name="3droadlocalize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#591#724#0" expanded="true" />
+                <element signature="e#769#870#0" expanded="true" />
+                <element signature="e#1217#1373#0" expanded="true" />
+                <element signature="e#1426#1474#0" expanded="true" />
+                <element signature="e#1501#1555#0" expanded="true" />
+                <element signature="e#1591#1980#0" expanded="true" />
+                <element signature="e#2013#2274#0" expanded="true" />
+                <element signature="e#2311#2408#0" expanded="true" />
+                <element signature="e#2442#2752#0" expanded="true" />
+                <element signature="e#2791#2889#0" expanded="true" />
+                <element signature="e#3811#3899#0" expanded="true" />
+                <element signature="e#4122#4323#0" expanded="true" />
+                <element signature="e#4350#5942#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="localize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/localize.py">
+      <file leaf-file-name="terrain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terrain.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="43" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1498#4778#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#407#761#0" expanded="true" />
+                <element signature="e#789#946#0" expanded="true" />
+                <element signature="e#1219#1785#0" expanded="true" />
+                <element signature="e#1814#1872#0" expanded="true" />
+                <element signature="e#1947#2076#0" expanded="true" />
+                <element signature="e#2164#2232#0" expanded="true" />
+                <element signature="e#2270#2587#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arena.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arena.py">
+      <file leaf-file-name="visualization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.55860615">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#456#677#0" expanded="true" />
+                <element signature="e#763#1075#0" expanded="true" />
+                <element signature="e#1112#1706#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3dterrainvisualization.pu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#459#727#0" expanded="true" />
-                <element signature="e#782#929#0" expanded="true" />
-                <element signature="e#980#1629#0" expanded="true" />
-                <element signature="e#1917#1996#0" expanded="true" />
-                <element signature="e#2041#2131#0" expanded="true" />
-                <element signature="e#2173#2945#0" expanded="true" />
-                <element signature="e#2994#3548#0" expanded="true" />
-                <element signature="e#4451#5315#0" expanded="true" />
+                <element signature="e#0#47#1" expanded="true" />
+                <element signature="e#48#73#0" expanded="true" />
+                <element signature="e#155#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spline_localize.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spline_localize.py">
+      <file leaf-file-name="localminimatest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulationscripts/localminimatest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9330144">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#680#770#0" expanded="true" />
-                <element signature="e#815#916#0" expanded="true" />
-                <element signature="e#953#1049#0" expanded="true" />
-                <element signature="e#1104#1152#0" expanded="true" />
-                <element signature="e#1231#1285#0" expanded="true" />
-                <element signature="e#2011#2151#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findoptsenplacement.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+      <file leaf-file-name="psosolver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.833333">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#590#678#0" expanded="true" />
-                <element signature="e#1258#1462#0" expanded="true" />
+                <element signature="e#241#416#0" expanded="true" />
+                <element signature="e#2811#4069#0" expanded="true" />
+                <element signature="e#4100#4629#0" expanded="true" />
+                <element signature="e#4662#5097#0" expanded="true" />
+                <element signature="e#5141#5298#0" expanded="true" />
+                <element signature="e#5358#6577#0" expanded="true" />
+                <element signature="e#6687#8345#0" expanded="true" />
+                <element signature="e#8384#8451#0" expanded="true" />
+                <element signature="e#8485#8923#0" expanded="true" />
+                <element signature="e#8950#9058#0" expanded="true" />
+                <element signature="e#9096#9275#0" expanded="true" />
+                <element signature="e#9308#9579#0" expanded="true" />
+                <element signature="e#9605#10654#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="plotter2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plotter2.py">
+        <entry file="file://$PROJECT_DIR$/utilities/plotter2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1453452305149" expanded="false" signature="2838:3082" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plotter_localize_plain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plotter_localize_plain.py">
+      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#2654#2893#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,14 +215,45 @@
         <option value="$PROJECT_DIR$/localize.py" />
         <option value="$PROJECT_DIR$/arena.py" />
         <option value="$PROJECT_DIR$/findoptsenplacement.py" />
+        <option value="$PROJECT_DIR$/src/arena.py" />
+        <option value="$PROJECT_DIR$/utilities/plotter3droad.py" />
+        <option value="$PROJECT_DIR$/utilities/scatterplotanimation.py" />
+        <option value="$PROJECT_DIR$/utilities/plot3dterrain.py" />
+        <option value="$PROJECT_DIR$/utilities/plotter2.py" />
+        <option value="$PROJECT_DIR$/utilities/statelogger.py" />
+        <option value="$PROJECT_DIR$/solvers/psosolver.py" />
+        <option value="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
+        <option value="$PROJECT_DIR$/terrain.py" />
+        <option value="$PROJECT_DIR$/src/terrain.py" />
+        <option value="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
+        <option value="$PROJECT_DIR$/src/visualization.py" />
       </list>
     </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -198,7 +262,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -216,27 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Optimal Sensor Location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Optimal Sensor Location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Optimal Sensor Location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -258,14 +301,43 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="215" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -572,10 +644,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19946092" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15902965" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -586,7 +658,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16683726" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -618,226 +690,192 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/psosolver.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/curve_localization.py</url>
-          <line>176</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arena.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <caret line="162" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#2892#3533#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#712#802#0" expanded="false" />
+            <element signature="e#847#948#0" expanded="false" />
+            <element signature="e#985#1141#0" expanded="false" />
+            <element signature="e#1190#1238#0" expanded="false" />
+            <element signature="e#1712#1801#0" expanded="false" />
+            <element signature="e#2024#2164#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gdsolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="810" column="0" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#2892#3533#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
+            <element signature="e#591#724#0" expanded="true" />
+            <element signature="e#769#870#0" expanded="true" />
+            <element signature="e#1217#1373#0" expanded="true" />
+            <element signature="e#1426#1474#0" expanded="true" />
+            <element signature="e#1501#1555#0" expanded="true" />
+            <element signature="e#1591#1980#0" expanded="true" />
+            <element signature="e#2013#2274#0" expanded="true" />
+            <element signature="e#2311#2408#0" expanded="true" />
+            <element signature="e#2442#2752#0" expanded="true" />
+            <element signature="e#2791#2889#0" expanded="true" />
+            <element signature="e#3811#3899#0" expanded="true" />
+            <element signature="e#4122#4323#0" expanded="true" />
+            <element signature="e#4350#5942#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
+    <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gdsolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="810" column="0" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#2892#3533#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
+    <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter2.py">
+    <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#241#416#0" expanded="true" />
+            <element signature="e#2811#4069#0" expanded="true" />
+            <element signature="e#4100#4629#0" expanded="true" />
+            <element signature="e#4662#5097#0" expanded="true" />
+            <element signature="e#5141#5298#0" expanded="true" />
+            <element signature="e#5358#6577#0" expanded="true" />
+            <element signature="e#6687#8345#0" expanded="true" />
+            <element signature="e#8384#8451#0" expanded="true" />
+            <element signature="e#8485#8923#0" expanded="true" />
+            <element signature="e#8950#9058#0" expanded="true" />
+            <element signature="e#9096#9275#0" expanded="true" />
+            <element signature="e#9308#9579#0" expanded="true" />
+            <element signature="e#9605#10654#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/psolog">
+    <entry file="file://$PROJECT_DIR$/src/arena.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gdslog">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="162" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#712#802#0" expanded="false" />
+            <element signature="e#847#948#0" expanded="false" />
+            <element signature="e#985#1141#0" expanded="false" />
+            <element signature="e#1190#1238#0" expanded="false" />
+            <element signature="e#1712#1801#0" expanded="false" />
+            <element signature="e#2024#2164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#2892#3533#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
+            <element signature="e#591#724#0" expanded="true" />
+            <element signature="e#769#870#0" expanded="true" />
+            <element signature="e#1217#1373#0" expanded="true" />
+            <element signature="e#1426#1474#0" expanded="true" />
+            <element signature="e#1501#1555#0" expanded="true" />
+            <element signature="e#1591#1980#0" expanded="true" />
+            <element signature="e#2013#2274#0" expanded="true" />
+            <element signature="e#2311#2408#0" expanded="true" />
+            <element signature="e#2442#2752#0" expanded="true" />
+            <element signature="e#2791#2889#0" expanded="true" />
+            <element signature="e#3811#3899#0" expanded="true" />
+            <element signature="e#4122#4323#0" expanded="true" />
+            <element signature="e#4350#5942#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
+    <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#241#416#0" expanded="true" />
+            <element signature="e#2811#4069#0" expanded="true" />
+            <element signature="e#4100#4629#0" expanded="true" />
+            <element signature="e#4662#5097#0" expanded="true" />
+            <element signature="e#5141#5298#0" expanded="true" />
+            <element signature="e#5358#6577#0" expanded="true" />
+            <element signature="e#6687#8345#0" expanded="true" />
+            <element signature="e#8384#8451#0" expanded="true" />
+            <element signature="e#8485#8923#0" expanded="true" />
+            <element signature="e#8950#9058#0" expanded="true" />
+            <element signature="e#9096#9275#0" expanded="true" />
+            <element signature="e#9308#9579#0" expanded="true" />
+            <element signature="e#9605#10654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -897,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -925,80 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gdslog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gdsolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/numeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optsenpmtscore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optms_pso.npy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018947368">
-          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-          <folding>
-            <element signature="e#120#307#0" expanded="true" />
-            <element signature="e#480#1383#0" expanded="true" />
-            <element signature="e#2892#3533#0" expanded="true" />
-            <element signature="e#3575#4046#0" expanded="true" />
-            <element signature="e#4099#4283#0" expanded="true" />
-            <element signature="e#4326#4393#0" expanded="true" />
-            <element signature="e#4436#4904#0" expanded="true" />
-            <element signature="e#4940#5054#0" expanded="true" />
-            <element signature="e#5101#5304#0" expanded="true" />
-            <element signature="e#5346#5662#0" expanded="true" />
-            <element signature="e#5694#6926#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,92 +972,277 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../assignment1/connecteccomponents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.18947369">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter2.py">
+    <entry file="file:///usr/lib/python2.7/dist-packages/scipy/interpolate/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1453452305149" expanded="false" signature="2838:3082" placeholder="..." />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter_localize_plain.py">
+    <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#2654#2893#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arena.py">
+    <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#459#727#0" expanded="true" />
-            <element signature="e#782#929#0" expanded="true" />
-            <element signature="e#980#1629#0" expanded="true" />
-            <element signature="e#1917#1996#0" expanded="true" />
-            <element signature="e#2041#2131#0" expanded="true" />
-            <element signature="e#2173#2945#0" expanded="true" />
-            <element signature="e#2994#3548#0" expanded="true" />
-            <element signature="e#4451#5315#0" expanded="true" />
-          </folding>
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/localize.py">
+    <entry file="file://$PROJECT_DIR$/utilities/scatterplotanimation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1498#4778#0" expanded="true" />
-          </folding>
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findoptsenplacement.py">
+    <entry file="file://$PROJECT_DIR$/utilities/plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.833333">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#590#678#0" expanded="true" />
-            <element signature="e#1258#1462#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spline_localize.py">
+    <entry file="file://$PROJECT_DIR$/utilities/plot3dterrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9330144">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationdata/Lat-Lan to mts_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationdata/latlongexpl_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationdata/notesforterrain.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#680#770#0" expanded="true" />
-            <element signature="e#815#916#0" expanded="true" />
-            <element signature="e#953#1049#0" expanded="true" />
-            <element signature="e#1104#1152#0" expanded="true" />
-            <element signature="e#1231#1285#0" expanded="true" />
-            <element signature="e#2011#2151#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#712#802#0" expanded="false" />
+            <element signature="e#847#948#0" expanded="false" />
+            <element signature="e#985#1141#0" expanded="false" />
+            <element signature="e#1190#1238#0" expanded="false" />
+            <element signature="e#1712#1801#0" expanded="false" />
+            <element signature="e#2024#2164#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/findoptsenplacement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/psolog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/statelogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.719113">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#151#2208#0" expanded="true" />
+            <element signature="e#2236#2479#0" expanded="true" />
+            <element signature="e#2509#2774#0" expanded="true" />
+            <element signature="e#3529#3615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/localminimatest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#591#724#0" expanded="true" />
+            <element signature="e#769#870#0" expanded="true" />
+            <element signature="e#1217#1373#0" expanded="true" />
+            <element signature="e#1426#1474#0" expanded="true" />
+            <element signature="e#1501#1555#0" expanded="true" />
+            <element signature="e#1591#1980#0" expanded="true" />
+            <element signature="e#2013#2274#0" expanded="true" />
+            <element signature="e#2311#2408#0" expanded="true" />
+            <element signature="e#2442#2752#0" expanded="true" />
+            <element signature="e#2791#2889#0" expanded="true" />
+            <element signature="e#3811#3899#0" expanded="true" />
+            <element signature="e#4122#4323#0" expanded="true" />
+            <element signature="e#4350#5942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/plotter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#241#416#0" expanded="true" />
+            <element signature="e#2811#4069#0" expanded="true" />
+            <element signature="e#4100#4629#0" expanded="true" />
+            <element signature="e#4662#5097#0" expanded="true" />
+            <element signature="e#5141#5298#0" expanded="true" />
+            <element signature="e#5358#6577#0" expanded="true" />
+            <element signature="e#6687#8345#0" expanded="true" />
+            <element signature="e#8384#8451#0" expanded="true" />
+            <element signature="e#8485#8923#0" expanded="true" />
+            <element signature="e#8950#9058#0" expanded="true" />
+            <element signature="e#9096#9275#0" expanded="true" />
+            <element signature="e#9308#9579#0" expanded="true" />
+            <element signature="e#9605#10654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#544#1291#1" expanded="true" />
+            <element signature="e#1370#1638#0" expanded="true" />
+            <element signature="e#1693#2101#0" expanded="true" />
+            <element signature="e#2152#3077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#47#1" expanded="true" />
+            <element signature="e#48#73#0" expanded="true" />
+            <element signature="e#155#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#407#761#0" expanded="true" />
+            <element signature="e#789#946#0" expanded="true" />
+            <element signature="e#1219#1785#0" expanded="true" />
+            <element signature="e#1814#1872#0" expanded="true" />
+            <element signature="e#1947#2076#0" expanded="true" />
+            <element signature="e#2164#2232#0" expanded="true" />
+            <element signature="e#2270#2587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55860615">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#456#677#0" expanded="true" />
+            <element signature="e#763#1075#0" expanded="true" />
+            <element signature="e#1112#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Unnamed" />
+          </order>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
