@@ -30,15 +30,18 @@ class arena():
 
 
 
-    def __init__(self, no_sensors, ndim, sensor_loc, target_loc):
+    def __init__(self, no_sensors, ndim, sensor_loc, target_loc,**kwargs):
         self.no_sensors = no_sensors
         self.sensor_loc = sensor_loc
+        self.sigma = kwargs.get('sigma',.1)
+        self.path_loss_coeff = kwargs.get('pathloss',.77)
        # self.create_target_object()
         self.target_loc = target_loc
         self.get_original_ranges()
         self.get_noisy_ranges()
         self.target_loc = target_loc
         self.ndim = ndim
+
 
     def dist_from_ithsensor(self, i, point):
         """ 
@@ -84,11 +87,11 @@ class arena():
         self.orig_ranges = np.linalg.norm(a, axis=1)
 
     def get_noisy_ranges(self):
-        sigma = .1
+
 
         mean_vector = self.orig_ranges
-        path_loss_coeff = .77
-        variance_vector = sigma * (np.power(self.orig_ranges, path_loss_coeff))
+        # self.path_loss_coeff = .77
+        variance_vector = self.sigma * (np.power(self.orig_ranges, self.path_loss_coeff))
         # print variance_vector
         self.mean = mean_vector
         self.var = variance_vector

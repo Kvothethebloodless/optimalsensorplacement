@@ -4,7 +4,7 @@ import os
 from scipy import interpolate
 from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
-
+from src.terrain import terrain, road
 import matplotlib.pyplot as plt
 
 import src.arena as arena
@@ -17,6 +17,7 @@ import utilities.statelogger as stlog  # Logging states and state variables
 
 
 (terrain_x,terrain_y,terrain_z) = np.load('simulationdata/corrected_terrain_mt.npy')
+
 
 
 terrainalt_spline = interpolate.RectBivariateSpline(terrain_x[0],terrain_y[:,0],terrain_z)

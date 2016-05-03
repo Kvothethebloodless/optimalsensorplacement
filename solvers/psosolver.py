@@ -33,14 +33,14 @@ class PSO:
 		no_particles, no_dim, self_accel_coeff, global_accel_coeff, dt , A total of 5 parameters
 		no_particles = Number of swarm particles to create and engage
 		no_dim = Dimension of the search space
-		Searchboundaries = a 2byndim array with the first component being the inner boundary values and the second component being the outer boundary values
 		self_accel_coeff = acceleration coefficient following its own past
 		global_accel_coeff = accleration coefficient following the group leader
 		dt_pos = dt for velocity to position conversion
 		dt_velocity = dt for accleration to velocity conversion. Both should normally be equal.
-		velocitybound = (maxvel,minvel)
-		**maxvel = maximum allowed velocity of the particle.
-		**minvel = minimum allowed velocity of the paritcle.
+		Searchboundaries = a 2byndim array with the first component being the inner boundary values and the second component being the outer boundary values
+
+		maxvels = a 1byndim array with maximum allowed velocity ofthe particle in the dimension.
+
 		datafilename = filename to store the pso simulation data. Appends npy automatically.
 		loggerfilename = filename to log the status messages from the dataframelogger.
 
@@ -65,13 +65,15 @@ class PSO:
 		self.dt_velocity = kwargs.get('dt_velocity',1)
 		self.dt_pos = kwargs.get('dt_pos',1)
 		self.weight = kwargs.get('weight',.5)
-		self.maxvel = kwargs.get('maxvel',50)
+		self.maxvel = kwargs.get('maxvel',10)
 		self.minvel = kwargs.get('minvel',0)
 		self.datalogfilename = kwargs.get('datalogfilename','datalog')
 		self.datafilename = kwargs.get('datafilename','psodata')
 		self.solverlogfilename = kwargs.get('solverlogfilename','psosolverlog')
 
 		self.searchspaceboundaries = kwargs.get('searchspaceboundaries',np.random.random((2,self.no_dim)))
+
+		self.maxvels = kwargs.get('maxvels',((np.abs(self.searchspaceboundaries[0]-self.searchspaceboundaries[1])).astype(float)/2))
 		self.innerboundary = self.searchspaceboundaries[0]
 		self.outerboundary = self.searchspaceboundaries[1]
 		if self.no_dim == -1:
@@ -136,7 +138,7 @@ class PSO:
 		return score_curr
 
 	def solve_iters(self, no_iters,verbose=True,out=True):
-		pdb.set_trace()
+		# pdb.set_trace()
 		self.psodatalogger = stlog.statelogger(self.datafilename,self.datalogfilename,self.current_pos,self.centroid,self.spread,self.globalmin)
 
 		self.initialize_swarm()
@@ -184,8 +186,8 @@ class PSO:
 		cur_score = self.globalmin
 		# diff = np.inf
 		errorlist = [np.inf for i in range(checkiters)]
-		pdb.set_trace()
-		while ((np.any(np.abs(errorlist[-checkiters::]) > convergencelimit)) & (iter<iterbound) & (iter<checkiters)):
+		# pdb.set_trace()
+		while ((np.any(np.abs(errorlist[-checkiters::]) > convergencelimit)) & (iter<iterbound) ):
 
 			# iter = 0
 			# cur_score = self.globalmin
@@ -239,8 +241,12 @@ class PSO:
 		global_accel = np.random.random() * (self.globalminlocation - self.current_pos)
 		accel = self.self_accel_coeff * self_accel + self.global_accel_coeff * global_accel
 		self.velocity = self.weight * self.velocity + accel * self.dt_velocity
-		self.velocity[self.velocity > self.maxvel] = self.maxvel
-		self.velocity[self.velocity < (-self.maxvel)] = -self.maxvel
+		g_mask = self.velocity > self.maxvels
+		l_mask = self.velocity < -self.maxvels
+		g_mask = np.array([np.all(ele) for ele in g_mask])
+		l_mask = np.array([np.all(ele) for ele in l_mask])
+		self.velocity[g_mask] = self.maxvel
+		self.velocity[l_mask] = -self.maxvel
 
 	def update_pos(self):
 		self.current_pos += self.velocity * self.dt_pos

@@ -6,13 +6,12 @@ from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
 import pdb
 import matplotlib.pyplot as plt
-import src.arena as arena
 import solvers.psosolver as psos  # Pso solver
 import utilities.statelogger as stlog  # Logging states and state variables
 from tvtk.api import tvtk
 from mayavi import mlab
 import Image, ImageDraw
-import cv2
+from scipy import misc
 
 
 def scale(array,maxval, minval):
@@ -27,22 +26,24 @@ def scale(array,maxval, minval):
 
 class visualize():
 	def __init__(self,(x,y,z),imagename,(xmin,xmax),(ymin,ymax)):
-		pdb.set_trace()
 		#xmin,xmax,ymin,ymax in coordinates. Not, in real world numbers.
+		pdb.set_trace()
 		self.X = x
 		self.Y = y
 		self.Z = z
-		self.imagename = 'simulationdata/visualize/'+imagename
-		self.Image = cv2.imread(imagename)
+		print imagename
+		self.imagename = imagename
+		self.imageobject = Image.open(self.imagename)
+		self.Image = misc.imread(imagename)
 		self.x = self.X[ymin:ymax,xmin:xmax]
 		self.y = self.Y[ymin:ymax,xmin:xmax]
 		self.z = self.Z[ymin:ymax,xmin:xmax]
 		self.image = self.Image[ymin:ymax,xmin:xmax]
 
-	def converttomayavi(self,image,convertedfilename):
+	def converttomayavi(self,convertedfilename,imageobject):
 		#MAYAVI seems to rotate 90 by counterclockwise and then flipleftright. So we do the opposite. We, flipleftright and ro
 		#tate 90 by clockwise.
-		a = image
+		# a = image
 		# plt.imshow(a)
 		# plt.show()
 	#     r = a[:,:,0]
@@ -54,20 +55,23 @@ class visualize():
 	#     newimg = np.hstack((rnew.
 	#     re = np.vstack((rnew.reshape(-1),gnew.reshape(-1), bnew.reshape(-1)))
 	#     newimg = re.T.reshape((1024,1024,3))
-		newimg = cv2.flip(a,1)
-		plt.imshow(newimg)
-		plt.show()
-		plt.figure()
-		newimg = imr(newimg,-90) #Clockwise rotation.
-		plt.imshow(newimg)
-		plt.show()
+	# 	plt.imshow(np.array(imageobject))
+	# 	plt.show()
+		newimg = imageobject.transpose(Image.FLIP_LEFT_RIGHT)
+		# plt.imshow(np.array(newimg))
+		# plt.show()
+		# plt.figure()
+		newimg = newimg.rotate(-90) #Clockwise rotation.
+		# plt.imshow(np.array(newimg))
+		# plt.show()
 		convertedfilename = 'simulationdata/visualize/%smayavi.jpeg' %convertedfilename
-		cv2.imwrite(convertedfilename,newimg)
+		newimg.save(convertedfilename)
 
 	def drawpoints(self,points,outname='default_drawpoints'):
-		im = Image.open('simulationdata/textflipped.jpeg')
+		# im = Image.open('simulationdata/visualize/texture2.jpeg')
+		im = self.imageobject
 		drawobj = ImageDraw.Draw(im)
-		size = 1 #square size is 3*2+1 = 7 units
+		size = 3 #square size is 3*2+1 = 7 units
 		#points needs to be list of tuples
 	#     pdb.set_trace()
 		points_topleft = [tuple(point-[size,size]) for point in points]
@@ -80,12 +84,14 @@ class visualize():
 		outfilename = "simulationdata/visualize/%spoints.jpeg" %outname
 		im.save(outfilename)
 		new_img = np.array(im)
+		plt.imshow(new_img)
 		del drawobj
 		return im
 
 	def showin3d(self,type,imagename):
+		pdb.set_trace()
 		bmp1 = tvtk.JPEGReader()
-		bmp1.file_name="simulationdata/test2.jpg" #any jpeg file
+		bmp1.file_name="simulationdata/visualize/"+imagename +"mayavi.jpeg" #any jpeg file
 		my_texture=tvtk.Texture()
 		my_texture.interpolate=0
 		my_texture.set_input(0,bmp1.get_output())

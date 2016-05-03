@@ -4,6 +4,8 @@ Draping an image over a terrain surface
 from tvtk.api import tvtk
 from mayavi import mlab
 import numpy as np
+from scipy import misc
+
 
 def scale(array,maxval, minval):
     array = array.astype('float32')
@@ -18,7 +20,7 @@ def scale(array,maxval, minval):
 bmp1 = tvtk.JPEGReader()
 bmp1.file_name="simulationdata/test2.jpg" #any jpeg file
 
-image = cv2.imread("simulationdata/test2.jpg")
+image = misc.imread("simulationdata/test2.jpg")
 
 
 my_texture=tvtk.Texture()
