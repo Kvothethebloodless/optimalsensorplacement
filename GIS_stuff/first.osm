@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2016-05-19T18:02:02Z"/>
+
+  <node id="3815077900" lat="0.0002274" lon="-0.0009120">
+    <tag k="ele" v="0"/>
+    <tag k="name" v="Atlas Buoy 0.00E 0.00N"/>
+    <tag k="note" v="Do not delete. Visual confirmed by research vessel on May 2009"/>
+    <tag k="seamark:name" v="Atlas Buoy"/>
+    <tag k="seamark:type" v="buoy_special_purpose"/>
+    <tag k="url" v="http://www.ndbc.noaa.gov/station_page.php?station=13010"/>
+  </node>
+
+</osm>
