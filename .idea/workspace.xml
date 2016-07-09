@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Fully working. Excellent results. Need to add animation. Will do soon.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationresults/road_localize_3d_new.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py" />
+    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Added vectorized latlng to Pixel functionality.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/manish.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/old3dlocalizewithforloop.cprof" afterPath="$PROJECT_DIR$/profile/old3dlocalizewithforloop.cprof" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationdata/visualize/default_drawpointspoints.jpeg" afterPath="$PROJECT_DIR$/simulationdata/visualize/default_drawpointspoints.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/datalog.txt" afterPath="$PROJECT_DIR$/logs/datalog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayaviimgformat.ipynb" afterPath="$PROJECT_DIR$/mayaviimgformat.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/revampterraintest.ipynb" afterPath="$PROJECT_DIR$/revampterraintest.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationresults/psodata.npy" afterPath="$PROJECT_DIR$/simulationresults/psodata.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" afterPath="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" afterPath="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py" afterPath="$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solvers/psosolver.py" afterPath="$PROJECT_DIR$/solvers/psosolver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arena.py" afterPath="$PROJECT_DIR$/src/arena.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gis.py" afterPath="$PROJECT_DIR$/src/gis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/terrain.py" afterPath="$PROJECT_DIR$/src/terrain.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visualization.py" afterPath="$PROJECT_DIR$/src/visualization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/terraintest.ipynb" afterPath="$PROJECT_DIR$/terraintest.ipynb" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -34,65 +39,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3droadlocalize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
+      <file leaf-file-name="gmapshelpers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GIS_stuff/gmapshelpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#629#762#0" expanded="true" />
-                <element signature="e#807#908#0" expanded="true" />
-                <element signature="e#1255#1411#0" expanded="true" />
-                <element signature="e#1464#1512#0" expanded="true" />
-                <element signature="e#1539#1593#0" expanded="true" />
-                <element signature="e#2051#2312#0" expanded="true" />
-                <element signature="e#2349#2446#0" expanded="true" />
-                <element signature="e#2480#2790#0" expanded="true" />
-                <element signature="e#2829#2927#0" expanded="true" />
-                <element signature="e#3849#3937#0" expanded="true" />
-                <element signature="e#4160#4361#0" expanded="true" />
-                <element signature="e#4388#5980#0" expanded="true" />
+                <element signature="e#977#1367#0" expanded="true" />
+                <element signature="e#1406#1610#0" expanded="true" />
+                <element signature="e#1648#1910#0" expanded="true" />
+                <element signature="e#1950#2218#0" expanded="true" />
+                <element signature="e#2262#2569#0" expanded="true" />
+                <element signature="e#2606#2727#0" expanded="true" />
+                <element signature="e#2771#2890#0" expanded="true" />
+                <element signature="e#2936#3397#0" expanded="true" />
+                <element signature="e#3442#3533#0" expanded="true" />
+                <element signature="e#3577#3899#0" expanded="true" />
+                <element signature="e#3952#4819#0" expanded="true" />
+                <element signature="e#4866#5129#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terrain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terrain.py">
+      <file leaf-file-name="profilelatlong.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GIS_stuff/profilelatlong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GIS_stuff/tile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#407#789#0" expanded="true" />
-                <element signature="e#817#974#0" expanded="true" />
-                <element signature="e#1009#1335#0" expanded="true" />
-                <element signature="e#1387#1527#0" expanded="true" />
-                <element signature="e#1566#1692#0" expanded="true" />
-                <element signature="e#1776#2495#0" expanded="true" />
-                <element signature="e#2520#2681#0" expanded="true" />
-                <element signature="e#2710#2768#0" expanded="true" />
-                <element signature="e#2843#2972#0" expanded="true" />
-                <element signature="e#3050#3554#0" expanded="true" />
-                <element signature="e#3579#3622#0" expanded="true" />
-                <element signature="e#3682#3802#0" expanded="true" />
-                <element signature="e#3874#3993#0" expanded="true" />
-                <element signature="e#4097#4176#0" expanded="true" />
-                <element signature="e#4204#4510#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#519#722#0" expanded="true" />
+                <element signature="e#756#942#0" expanded="true" />
+                <element signature="e#970#1891#0" expanded="true" />
+                <element signature="e#1936#1996#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="road_localize_3d_new.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py">
+      <file leaf-file-name="psosolver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75612605">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="19">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#434#552#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#128#235#0" expanded="true" />
+                <element signature="e#313#624#0" expanded="true" />
+                <element signature="e#1170#1371#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,11 +127,12 @@
       <file leaf-file-name="arena.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arena.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="57" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="57" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#1379#1749#0" expanded="true" />
+                <element signature="e#1805#2213#0" expanded="true" />
                 <element signature="e#2264#3189#0" expanded="true" />
                 <element signature="e#3234#3324#0" expanded="true" />
                 <element signature="e#3368#3865#0" expanded="true" />
@@ -117,78 +144,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/visualization.py">
+      <file leaf-file-name="terrain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#466#687#0" expanded="true" />
-                <element signature="e#773#1191#0" expanded="true" />
-                <element signature="e#2195#3027#0" expanded="true" />
-                <element signature="e#3067#3656#0" expanded="true" />
+                <element signature="e#817#974#0" expanded="true" />
+                <element signature="e#1009#1335#0" expanded="true" />
+                <element signature="e#1387#1527#0" expanded="true" />
+                <element signature="e#1566#1758#0" expanded="true" />
+                <element signature="e#1842#2561#0" expanded="true" />
+                <element signature="e#2586#2747#0" expanded="true" />
+                <element signature="e#2776#2834#0" expanded="true" />
+                <element signature="e#2909#3038#0" expanded="true" />
+                <element signature="e#3116#3640#0" expanded="true" />
+                <element signature="e#3665#3708#0" expanded="true" />
+                <element signature="e#3768#3888#0" expanded="true" />
+                <element signature="e#3960#4079#0" expanded="true" />
+                <element signature="e#4183#4262#0" expanded="true" />
+                <element signature="e#4290#4596#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3dterrainvisualization.pu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
+      <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#47#1" expanded="true" />
-                <element signature="e#48#73#0" expanded="true" />
-                <element signature="e#179#400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localminimatest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simulationscripts/localminimatest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="psosolver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#241#416#0" expanded="true" />
-                <element signature="e#472#2855#0" expanded="true" />
-                <element signature="e#2888#4146#0" expanded="true" />
-                <element signature="e#4177#4706#0" expanded="true" />
-                <element signature="e#4739#5174#0" expanded="true" />
-                <element signature="e#5218#5375#0" expanded="true" />
-                <element signature="e#5435#6656#0" expanded="true" />
-                <element signature="e#8446#8513#0" expanded="true" />
-                <element signature="e#8547#9127#0" expanded="true" />
-                <element signature="e#9154#9262#0" expanded="true" />
-                <element signature="e#9300#9479#0" expanded="true" />
-                <element signature="e#9512#9783#0" expanded="true" />
-                <element signature="e#9809#10858#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotter2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/plotter2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -246,13 +232,21 @@
         <option value="$PROJECT_DIR$/utilities/plotter2.py" />
         <option value="$PROJECT_DIR$/utilities/statelogger.py" />
         <option value="$PROJECT_DIR$/terrain.py" />
-        <option value="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
-        <option value="$PROJECT_DIR$/src/visualization.py" />
         <option value="$PROJECT_DIR$/simulationresults/road_localize_3d_new.py" />
-        <option value="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
-        <option value="$PROJECT_DIR$/src/terrain.py" />
-        <option value="$PROJECT_DIR$/solvers/psosolver.py" />
+        <option value="$PROJECT_DIR$/src/visualization.py" />
         <option value="$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py" />
+        <option value="$PROJECT_DIR$/simulationscripts/3droadlocalize.py" />
+        <option value="$PROJECT_DIR$/terraintest.ipynb" />
+        <option value="$PROJECT_DIR$/src/terrain.py" />
+        <option value="$PROJECT_DIR$/src/gis.py" />
+        <option value="$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/https:/github.com/mapbox/mercantile/blob/master/mercantile/__init__.py" />
+        <option value="$PROJECT_DIR$/GIS_stuff/merc.pu.py" />
+        <option value="$PROJECT_DIR$/GIS_stuff/merc.js" />
+        <option value="$PROJECT_DIR$/solvers/psosolver.py" />
+        <option value="$PROJECT_DIR$/GIS_stuff/tile.py" />
+        <option value="$PROJECT_DIR$/GIS_stuff/profilelatlong.py" />
+        <option value="$PROJECT_DIR$/GIS_stuff/gmapshelpers.py" />
       </list>
     </option>
   </component>
@@ -261,9 +255,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="966" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -272,10 +266,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>ReST</id>
           </State>
         </selected-state>
       </profile-state>
@@ -292,14 +289,14 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource Scope="true" />
       <autoscrollFromSource />
       <sortByType />
       <manualOrder />
@@ -310,96 +307,43 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+              <option name="myItemId" value="Optimal Sensor Location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Optimal Sensor Location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Optimal Sensor Location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Optimal Sensor Location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Optimal Sensor Location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GIS_stuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="utilities">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Optimal Sensor Location">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="simulationscripts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GIS_stuff/tile.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="215" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -417,8 +361,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1138" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistoryKey" value="terrain&#9;null&#9;null" />
+    <property name="TODO_SCOPE" value="Project Files" />
   </component>
-  <component name="RunManager" selected="Python.findoptsenplacement">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Optimal Sensor Location" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Optimal Sensor Location" />
+      </console-settings>
+    </option>
+    <option name="myShowDebugConsoleByDefault" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.Unnamed">
     <configuration default="false" name="findoptsenplacement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -519,6 +474,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Optimal Sensor Location" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -626,12 +593,30 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
-      <item index="1" class="java.lang.String" itemvalue="Python.localize" />
-      <item index="2" class="java.lang.String" itemvalue="Python.curve_localization" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plotter2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plotter_localize_plain" />
+    <configuration default="false" name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GIS_stuff" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Optimal Sensor Location" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GIS_stuff/tile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Python.findoptsenplacement" />
+      <item index="2" class="java.lang.String" itemvalue="Python.localize" />
+      <item index="3" class="java.lang.String" itemvalue="Python.curve_localization" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plotter2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plotter_localize_plain" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -643,7 +628,9 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -652,76 +639,123 @@
       <changelist id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="" />
       <created>1451230222255</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1451230222255</updated>
     </task>
     <task id="LOCAL-00001" summary="Cleaned up Full Localization to provide arena class and different target, sensor array creation methods.">
       <created>1452681533495</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1452681533495</updated>
     </task>
     <task id="LOCAL-00002" summary="Fixed errors in full localization.py. PSO changes need to be remembered in boundary management.">
       <created>1452681840455</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1452681840455</updated>
     </task>
     <task id="LOCAL-00003" summary="Cleaned up, and clearly abstracted everything. Seperate arena classes and localize scripts.">
       <created>1452683345668</created>
       <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1452683345668</updated>
     </task>
     <task id="LOCAL-00004" summary="Full code cleanup. Fully working now.">
       <created>1452687837982</created>
       <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1452687837982</updated>
     </task>
     <task id="LOCAL-00005" summary="Setup the road. Working on solution now.&#10;">
       <created>1452716486955</created>
       <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1452716486955</updated>
     </task>
     <task id="LOCAL-00006" summary="Working code. But not producing the expected results.&#10;">
       <created>1452721354188</created>
       <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1452721354188</updated>
     </task>
     <task id="LOCAL-00007" summary="Fully working. Excellent results. Need to add animation. Will do soon.">
       <created>1452721851137</created>
       <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1452721851137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added vectorized latlng to Pixel functionality.">
+      <created>1468092664706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1468092664706</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="966" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15902965" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.50623703" order="1" side_tool="true" content_ui="combo" x="65" y="63" width="369" height="1045" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22765073" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.504" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.49745455" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.493763" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.496" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986361" sideWeight="0.504158" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16572717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16683726" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.504" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16572717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.49745455" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.496" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20130932" sideWeight="0.5" order="1" side_tool="true" content_ui="combo" x="65" y="63" width="369" height="1045" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.495842" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.504158" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -745,285 +779,113 @@
     <MESSAGE value="Setup the road. Working on solution now.&#10;" />
     <MESSAGE value="Working code. But not producing the expected results.&#10;" />
     <MESSAGE value="Fully working. Excellent results. Need to add animation. Will do soon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fully working. Excellent results. Need to add animation. Will do soon." />
+    <MESSAGE value="Added vectorized latlng to Pixel functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added vectorized latlng to Pixel functionality." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/src/optsenpmtscore.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#241#416#0" expanded="true" />
-            <element signature="e#472#2855#0" expanded="true" />
-            <element signature="e#2888#4146#0" expanded="true" />
-            <element signature="e#4177#4706#0" expanded="true" />
-            <element signature="e#4739#5174#0" expanded="true" />
-            <element signature="e#5218#5375#0" expanded="true" />
-            <element signature="e#5435#6656#0" expanded="true" />
-            <element signature="e#8446#8513#0" expanded="true" />
-            <element signature="e#8547#9127#0" expanded="true" />
-            <element signature="e#9154#9262#0" expanded="true" />
-            <element signature="e#9300#9479#0" expanded="true" />
-            <element signature="e#9512#9783#0" expanded="true" />
-            <element signature="e#9809#10858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arena.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#629#762#0" expanded="true" />
-            <element signature="e#807#908#0" expanded="true" />
-            <element signature="e#1255#1411#0" expanded="true" />
-            <element signature="e#1464#1512#0" expanded="true" />
-            <element signature="e#1539#1593#0" expanded="true" />
-            <element signature="e#2051#2312#0" expanded="true" />
-            <element signature="e#2349#2446#0" expanded="true" />
-            <element signature="e#2480#2790#0" expanded="true" />
-            <element signature="e#2829#2927#0" expanded="true" />
-            <element signature="e#3849#3937#0" expanded="true" />
-            <element signature="e#4160#4361#0" expanded="true" />
-            <element signature="e#4388#5980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#241#416#0" expanded="true" />
-            <element signature="e#472#2855#0" expanded="true" />
-            <element signature="e#2888#4146#0" expanded="true" />
-            <element signature="e#4177#4706#0" expanded="true" />
-            <element signature="e#4739#5174#0" expanded="true" />
-            <element signature="e#5218#5375#0" expanded="true" />
-            <element signature="e#5435#6656#0" expanded="true" />
-            <element signature="e#8446#8513#0" expanded="true" />
-            <element signature="e#8547#9127#0" expanded="true" />
-            <element signature="e#9154#9262#0" expanded="true" />
-            <element signature="e#9300#9479#0" expanded="true" />
-            <element signature="e#9512#9783#0" expanded="true" />
-            <element signature="e#9809#10858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arena.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/fulllocalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37894738">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/gdsolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/gradientdescentlocalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/ParticleSwarmOptimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/pointpicker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/psosolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/statelogger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state relative-caret-position="0">
           <caret line="829" column="0" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/scipy/misc/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02">
+        <state relative-caret-position="0">
           <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/numeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29894736">
+        <state relative-caret-position="0">
           <caret line="2213" column="0" selection-start-line="2213" selection-start-column="0" selection-end-line="2213" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../assignment1/connecteccomponents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18947369">
+        <state relative-caret-position="0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/scipy/interpolate/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/plotter3droad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/splinelocalize_psolog">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/scatterplotanimation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/plot3dterrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1040,113 +902,177 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simulationdata/notesforterrain.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/findoptsenplacement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/psolog">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/statelogger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.719113">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/localize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulationresults/road_localize_3d_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/plotter2.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/findoptsenplacement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/spline_localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solvers/gdsolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/statelogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optsenpmtscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#426#533#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/visualization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#466#687#0" expanded="true" />
-            <element signature="e#773#1191#0" expanded="true" />
-            <element signature="e#2195#3027#0" expanded="true" />
-            <element signature="e#3067#3656#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/plotter2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/scatterplotanimation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solvers/plotter_localize_plain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optsenpmtscore_unoptimized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/revampterraintest.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraintest.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Awesomestuff/Subjects/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers-master/Chapter1_Introduction/Chapter1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/hs_err_pid2652.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/localminimatest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/mapscache/17.272975_77.836400_15_roadmap_640_640.jpg" />
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/mapscache/17.272975_77.808934_15_roadmap_640_640.jpg" />
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/https:/github.com/mapbox/mercantile/blob/master/mercantile/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.pu.py" />
+    <entry file="file://$PROJECT_DIR$/simulationscripts/localize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#629#762#0" expanded="true" />
-            <element signature="e#807#908#0" expanded="true" />
-            <element signature="e#1255#1411#0" expanded="true" />
-            <element signature="e#1464#1512#0" expanded="true" />
-            <element signature="e#1539#1593#0" expanded="true" />
-            <element signature="e#2051#2312#0" expanded="true" />
-            <element signature="e#2349#2446#0" expanded="true" />
-            <element signature="e#2480#2790#0" expanded="true" />
-            <element signature="e#2829#2927#0" expanded="true" />
-            <element signature="e#3849#3937#0" expanded="true" />
-            <element signature="e#4160#4361#0" expanded="true" />
-            <element signature="e#4388#5980#0" expanded="true" />
+            <element signature="e#0#47#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arena.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#1379#1749#0" expanded="true" />
+            <element signature="e#1805#2213#0" expanded="true" />
             <element signature="e#2264#3189#0" expanded="true" />
             <element signature="e#3234#3324#0" expanded="true" />
             <element signature="e#3368#3865#0" expanded="true" />
@@ -1157,83 +1083,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/localminimatest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/3dterrainvisualization.pu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#1" expanded="true" />
-            <element signature="e#48#73#0" expanded="true" />
-            <element signature="e#179#400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/terrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#407#789#0" expanded="true" />
             <element signature="e#817#974#0" expanded="true" />
             <element signature="e#1009#1335#0" expanded="true" />
             <element signature="e#1387#1527#0" expanded="true" />
-            <element signature="e#1566#1692#0" expanded="true" />
-            <element signature="e#1776#2495#0" expanded="true" />
-            <element signature="e#2520#2681#0" expanded="true" />
-            <element signature="e#2710#2768#0" expanded="true" />
-            <element signature="e#2843#2972#0" expanded="true" />
-            <element signature="e#3050#3554#0" expanded="true" />
-            <element signature="e#3579#3622#0" expanded="true" />
-            <element signature="e#3682#3802#0" expanded="true" />
-            <element signature="e#3874#3993#0" expanded="true" />
-            <element signature="e#4097#4176#0" expanded="true" />
-            <element signature="e#4204#4510#0" expanded="true" />
+            <element signature="e#1566#1758#0" expanded="true" />
+            <element signature="e#1842#2561#0" expanded="true" />
+            <element signature="e#2586#2747#0" expanded="true" />
+            <element signature="e#2776#2834#0" expanded="true" />
+            <element signature="e#2909#3038#0" expanded="true" />
+            <element signature="e#3116#3640#0" expanded="true" />
+            <element signature="e#3665#3708#0" expanded="true" />
+            <element signature="e#3768#3888#0" expanded="true" />
+            <element signature="e#3960#4079#0" expanded="true" />
+            <element signature="e#4183#4262#0" expanded="true" />
+            <element signature="e#4290#4596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#128#235#0" expanded="true" />
+            <element signature="e#313#624#0" expanded="true" />
+            <element signature="e#1170#1371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+        <state relative-caret-position="19">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#241#416#0" expanded="true" />
-            <element signature="e#472#2855#0" expanded="true" />
-            <element signature="e#2888#4146#0" expanded="true" />
-            <element signature="e#4177#4706#0" expanded="true" />
-            <element signature="e#4739#5174#0" expanded="true" />
-            <element signature="e#5218#5375#0" expanded="true" />
-            <element signature="e#5435#6656#0" expanded="true" />
-            <element signature="e#8446#8513#0" expanded="true" />
-            <element signature="e#8547#9127#0" expanded="true" />
-            <element signature="e#9154#9262#0" expanded="true" />
-            <element signature="e#9300#9479#0" expanded="true" />
-            <element signature="e#9512#9783#0" expanded="true" />
-            <element signature="e#9809#10858#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#519#722#0" expanded="true" />
+            <element signature="e#756#942#0" expanded="true" />
+            <element signature="e#970#1891#0" expanded="true" />
+            <element signature="e#1936#1996#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/road_localize_3d_new.py">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/example1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75612605">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/profilelatlong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/gmapshelpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#434#552#0" expanded="true" />
+            <element signature="e#977#1367#0" expanded="true" />
+            <element signature="e#1406#1610#0" expanded="true" />
+            <element signature="e#1648#1910#0" expanded="true" />
+            <element signature="e#1950#2218#0" expanded="true" />
+            <element signature="e#2262#2569#0" expanded="true" />
+            <element signature="e#2606#2727#0" expanded="true" />
+            <element signature="e#2771#2890#0" expanded="true" />
+            <element signature="e#2936#3397#0" expanded="true" />
+            <element signature="e#3442#3533#0" expanded="true" />
+            <element signature="e#3577#3899#0" expanded="true" />
+            <element signature="e#3952#4819#0" expanded="true" />
+            <element signature="e#4866#5129#0" expanded="true" />
           </folding>
         </state>
       </provider>
