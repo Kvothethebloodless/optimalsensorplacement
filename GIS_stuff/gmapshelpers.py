@@ -1,6 +1,5 @@
 from __future__ import division
 
-import collections
 import numpy as np
 
 TILE_SIZE = 256
@@ -13,15 +12,9 @@ INV_PI4 = 1 / PI4
 EXP2 = np.array([np.power(2, i) for i in range(0, 32)])
 INVEXP2 = np.array([np.power(np.float(2), -i) for i in range(0, 32)], dtype='float32')
 
-# fixme: Vectorize functions, otherwise processing large arrays might take a lot of time.
-# donthave to, because each call to latlngtopixel_better takes approximately
-# done: Save most used constants, like powers of 2, pi and its dividents into a cache.npy to speed up the calculations.
-# todo: Use name tuples. Helps better understand.
 # todo: Add documentation. Make some functions publicly available.
 
-LatLng = collections.namedtuple("LatLng", ["Latitude", "Longitude"])
-Tile = collections.namedtuple("Tile", ["TileX", "TileY"])
-Pixel = collections.namedtuple("Pixel", ["PixelX", "PixelY"])
+
 
 
 def latlngToWorld((lat, lon)):

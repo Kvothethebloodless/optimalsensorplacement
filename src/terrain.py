@@ -1,16 +1,12 @@
 from __future__ import division
+
 import numpy as np
-import os
 from scipy import interpolate
-from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
-import pdb
+from scipy.optimize import fsolve as fs
 
 import matplotlib.pyplot as plt
 
-import src.arena as arena
-import solvers.psosolver as psos  # Pso solver
-import utilities.statelogger as stlog  # Logging states and state variables
 
 class terrain():
 	def __init__(self,(x,y,z)):
@@ -48,7 +44,8 @@ class terrain():
 	def realtocords(self,realpoints):
 		xs = self.xindexfunc(realpoints[:,0],realpoints[:,1])
 		ys = self.yindexfunc(realpoints[:,0],realpoints[:,1])
-		return (xs,ys)
+		cords = np.array([xs.astype(int), ys.astype(int)])
+		return cords.T.reshape(-1, 2)
 
 
 
@@ -98,11 +95,11 @@ class road(terrain):
 		a better idea to actually fit a curve from d to x. We are going to
 		do that now.
 		"""
-
-		#self.roadx_extrapoints = np.arange(self.startx,self.endx,.5)
-		#self.d_all = self.xarray_to_d(self.startx,self.roadx_extrapoints)
+		# pdb.set_trace()
+		# self.roadx_extrapoints = np.arange(self.startx,self.endx,.5)
+		# self.d_all = self.xarray_to_d(self.startx,self.roadx_extrapoints)
 		#Decrease instantiation time by saving these to file.
-		(self.d_all,self.roadx_extrapoints) = np.load('simulationdata/dandxall.npy')
+		(self.d_all, self.roadx_extrapoints) = np.load('simulationdata/dtoxall.npy')
 		self.dtox_tck = interpolate.splrep(self.d_all,self.roadx_extrapoints,s=0)
 
 	def d_to_x(self,d):

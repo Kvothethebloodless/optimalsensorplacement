@@ -1,17 +1,13 @@
 from __future__ import division
+
+import Image
+import ImageDraw
 import numpy as np
-import os
-from scipy import interpolate
-from scipy.optimize import fsolve as fs
-from scipy.integrate import quad
-import pdb
-import matplotlib.pyplot as plt
-import solvers.psosolver as psos  # Pso solver
-import utilities.statelogger as stlog  # Logging states and state variables
-from tvtk.api import tvtk
 from mayavi import mlab
-import Image, ImageDraw
 from scipy import misc
+from tvtk.api import tvtk
+
+import matplotlib.pyplot as plt
 
 
 def scale(array,maxval, minval):
@@ -25,9 +21,9 @@ def scale(array,maxval, minval):
     return array2+minval
 
 class visualize():
-	def __init__(self,(x,y,z),imagename,(xmin,xmax),(ymin,ymax)):
+	def __init__(self, (x, y, z), imagename):
 		#xmin,xmax,ymin,ymax in coordinates. Not, in real world numbers.
-		pdb.set_trace()
+		# pdb.set_trace()
 		self.X = x
 		self.Y = y
 		self.Z = z
@@ -35,12 +31,13 @@ class visualize():
 		self.imagename = imagename
 		self.imageobject = Image.open(self.imagename)
 		self.Image = misc.imread(imagename)
-		self.x = self.X[ymin:ymax,xmin:xmax]
-		self.y = self.Y[ymin:ymax,xmin:xmax]
-		self.z = self.Z[ymin:ymax,xmin:xmax]
-		self.image = self.Image[ymin:ymax,xmin:xmax]
 
-	def converttomayavi(self,convertedfilename,imageobject):
+	# self.x = self.X[ymin:ymax,xmin:xmax]
+	# self.y = self.Y[ymin:ymax,xmin:xmax]
+	# self.z = self.Z[ymin:ymax,xmin:xmax]
+	# self.image = self.Image[ymin:ymax,xmin:xmax]
+
+	def converttomayavi(self, imageobject, convertedfilename='defaultconverted'):
 		#MAYAVI seems to rotate 90 by counterclockwise and then flipleftright. So we do the opposite. We, flipleftright and ro
 		#tate 90 by clockwise.
 		# a = image
@@ -68,6 +65,7 @@ class visualize():
 		newimg.save(convertedfilename)
 
 	def drawpoints(self,points,outname='default_drawpoints'):
+		print (points)
 		# im = Image.open('simulationdata/visualize/texture2.jpeg')
 		im = self.imageobject
 		drawobj = ImageDraw.Draw(im)
@@ -88,8 +86,8 @@ class visualize():
 		del drawobj
 		return im
 
-	def showin3d(self,type,imagename):
-		pdb.set_trace()
+	def showin3d(self, imagename='defaultconverted'):
+		# pdb.set_trace()
 		bmp1 = tvtk.JPEGReader()
 		bmp1.file_name="simulationdata/visualize/"+imagename +"mayavi.jpeg" #any jpeg file
 		my_texture=tvtk.Texture()

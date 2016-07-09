@@ -1,20 +1,11 @@
 from __future__ import division
+
 import numpy as np
-import os
 from scipy import interpolate
-from scipy.optimize import fsolve as fs
 from scipy.integrate import quad
-from src.terrain import terrain, road
+from scipy.optimize import fsolve as fs
+
 import matplotlib.pyplot as plt
-
-import src.arena as arena
-import solvers.psosolver as psos  # Pso solver
-import utilities.statelogger as stlog  # Logging states and state variables
-
-
-
-
-
 
 (terrain_x,terrain_y,terrain_z) = np.load('simulationdata/corrected_terrain_mt.npy')
 
@@ -26,7 +17,7 @@ getz = terrainalt_spline.ev
 def create_spline_curve():
     x = terrain_x[0,[0,200,400,600,1000]]
     y = terrain_y[[230,400,600,400,300],0]
-    tck = interpolate.splrep(x,y,s=0)
+	tck = interpolate.splrep(x, y, s=0)
     return tck
 
 def getlengthfromspline(x,tck,length):

@@ -1,90 +1,212 @@
-2016-05-04 03:04:36,952 - statelogger - INFO - **********STARTING***********
-2016-05-04 03:04:36,952 - statelogger - INFO - Logging to - *logs/datalog.txt*
-2016-05-04 03:04:36,952 - statelogger - INFO - Recieved 4 variables
-2016-05-04 03:04:36,952 - statelogger - INFO - Starting Recording
-2016-05-04 03:04:36,952 - statelogger - INFO - Initialization Finished
-2016-05-04 03:04:37,016 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,017 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,039 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,039 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,060 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,061 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,084 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,085 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,108 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,108 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,131 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,132 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,154 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,154 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,176 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,177 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,198 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,198 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,220 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,221 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,242 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,243 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,265 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,266 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,288 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,289 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,310 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,311 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,333 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,334 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,356 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,356 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,379 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,379 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,402 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,402 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,425 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,425 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,449 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,449 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,472 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,472 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,494 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,495 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,517 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,518 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,540 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,540 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,563 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,565 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,587 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,587 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,609 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,610 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,633 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,634 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,655 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,656 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,678 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,679 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,700 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,701 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,723 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,724 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,746 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,747 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,769 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,771 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,792 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,793 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,815 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,816 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,839 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,840 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,862 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,863 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,885 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,885 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,907 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,908 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,930 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,931 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,952 - statelogger.add_state - INFO - Recieved 4 variables.
-2016-05-04 03:04:37,954 - statelogger.add_state - INFO - Added 4 variables to bank
-2016-05-04 03:04:37,954 - statelogger - INFO - **********FINISHED***********
+2016-05-05 00:53:24,052 - statelogger - INFO - **********STARTING***********
+2016-05-05 00:53:24,052 - statelogger - INFO - **********STARTING***********
+2016-05-05 00:53:24,052 - statelogger - INFO - Logging to - *logs/datalog.txt*
+2016-05-05 00:53:24,052 - statelogger - INFO - Logging to - *logs/datalog.txt*
+2016-05-05 00:53:24,052 - statelogger - INFO - Recieved 4 variables
+2016-05-05 00:53:24,052 - statelogger - INFO - Recieved 4 variables
+2016-05-05 00:53:24,052 - statelogger - INFO - Starting Recording
+2016-05-05 00:53:24,052 - statelogger - INFO - Starting Recording
+2016-05-05 00:53:24,052 - statelogger - INFO - Initialization Finished
+2016-05-05 00:53:24,052 - statelogger - INFO - Initialization Finished
+2016-05-05 00:53:24,349 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,349 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,349 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,349 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,369 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,369 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,369 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,369 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,390 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,390 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,390 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,390 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,410 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,410 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,411 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,411 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,432 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,432 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,433 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,433 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,454 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,454 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,454 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,454 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,475 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,475 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,475 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,475 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,494 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,494 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,495 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,495 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,515 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,515 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,515 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,515 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,536 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,536 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,536 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,536 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,555 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,555 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,556 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,556 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,576 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,576 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,576 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,576 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,596 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,596 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,597 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,597 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,616 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,616 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,616 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,616 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,636 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,636 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,637 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,637 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,657 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,657 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,657 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,657 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,676 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,676 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,677 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,677 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,697 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,697 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,697 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,697 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,717 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,717 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,718 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,718 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,737 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,737 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,737 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,737 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,758 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,758 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,758 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,758 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,778 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,778 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,779 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,779 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,798 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,798 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,799 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,799 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,818 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,818 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,819 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,819 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,839 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,839 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,839 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,839 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,859 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,859 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,859 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,859 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,879 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,879 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,880 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,880 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,900 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,900 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,901 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,901 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,920 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,920 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,921 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,921 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,941 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,941 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,942 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,942 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,962 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,962 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,963 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,963 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,983 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,983 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:24,983 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:24,983 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,004 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,004 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,004 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,004 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,025 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,025 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,025 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,025 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,046 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,046 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,046 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,046 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,067 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,067 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,068 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,068 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,088 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,088 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,089 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,089 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,109 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,109 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,110 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,110 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,130 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,130 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,131 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,131 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,151 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,151 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,152 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,152 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,172 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,172 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,174 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,174 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,194 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,194 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,195 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,195 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,215 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,215 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,216 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,216 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,237 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,237 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,238 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,238 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,258 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,258 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,258 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,258 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,279 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,279 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,280 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,280 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,300 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,300 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,301 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,301 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,321 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,321 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,322 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,322 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,344 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,344 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,345 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,345 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,365 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,365 - statelogger.add_state - INFO - Recieved 4 variables.
+2016-05-05 00:53:25,366 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,366 - statelogger.add_state - INFO - Added 4 variables to bank
+2016-05-05 00:53:25,367 - statelogger - INFO - **********FINISHED***********
+2016-05-05 00:53:25,367 - statelogger - INFO - **********FINISHED***********

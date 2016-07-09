@@ -1,9 +1,10 @@
 import numpy as np
 import pdb
+from random import randint
+
 from utilities import statelogger as stlog
-#Todo: Add PSO.solve
-#Make report better
-#Option for default params
+
+
 #
 
 
@@ -88,7 +89,7 @@ class PSO:
 		# self.current_pos =
 		list_pos = []  # An empty list to hold lists of positions of each particle in each dimension. i.e, if there are 10 dims and 50 particles, this list will
 		# consist of 10 lists of 50 sub entries which specify the dimension of each particle in that dimension.
-
+		pdb.set_trace()
 		for i in range(self.no_dim):
 			# print i
 			ithdim_pos = np.random.uniform(self.innerboundary[i], self.outerboundary[i], self.no_particles)
@@ -105,6 +106,9 @@ class PSO:
 		self.curr_score = self.funcdef(self.current_pos, self.no_particles)
 		self.centroid = np.mean(self.current_pos, axis=0)
 		self.spread = 0
+		print ('Initialized Swarm Locations are:')
+
+		print (self.current_pos)
 
 	def update_selfmin(self):
 		update_req_array = self.curr_score < self.selfminval
@@ -137,9 +141,18 @@ class PSO:
 		# print(score_curr[i])
 		return score_curr
 
-	def solve_iters(self, no_iters,verbose=True,out=True):
+	def solve_iters(self, no_iters, verbose=True, out=True, randomname=False):
+
 		# pdb.set_trace()
-		self.psodatalogger = stlog.statelogger(self.datafilename,self.datalogfilename,self.current_pos,self.centroid,self.spread,self.globalmin)
+		# self.psodatalogger = stlog.statelogger(self.datafilename,self.datalogfilename,self.current_pos,self.centroid,self.spread,self.globalmin)
+
+		if randomname:
+			randomname = str(randint(100000, 999999))
+			self.psodatalogger = stlog.statelogger(randomname, self.datalogfilename, self.current_pos, self.centroid,
+												   self.spread, self.globalmin)
+		else:
+			self.psodatalogger = stlog.statelogger(self.datafilename, self.datalogfilename, self.current_pos,
+												   self.centroid, self.spread, self.globalmin)
 
 		self.initialize_swarm()
 		for i in range(no_iters):
@@ -171,15 +184,26 @@ class PSO:
 
 		self.psodatalogger.close_logger()
 		if out:
-			output = dict([('extremum value',self.globalmin),('extremum location',self.globalminlocation)])
+			if randomname:
+				output = dict([('extremum value', self.globalmin), ('extremum location', self.globalminlocation),
+							   ('filename', randomname)])
+			else:
+				output = dict([('extremum value', self.globalmin), ('extremum location', self.globalminlocation)])
+
 			return output
 		else:
 			return
 
-	def solve_convergence(self, convergencelimit, iterbound=1000, verbose=False,out=True, checkiters = 10):
+	def solve_convergence(self, convergencelimit, iterbound=1000, verbose=False, out=True, checkiters=10,
+						  randomname=True):
 
-		self.psodatalogger = stlog.statelogger(self.datafilename,self.datalogfilename,self.current_pos,self.centroid,self.spread,self.globalmin)
-
+		if randomname:
+			randomname = str(randint(100000, 999999))
+			self.psodatalogger = stlog.statelogger(randomname, self.datalogfilename, self.current_pos, self.centroid,
+												   self.spread, self.globalmin)
+		else:
+			self.psodatalogger = stlog.statelogger(self.datafilename, self.datalogfilename, self.current_pos,
+												   self.centroid, self.spread, self.globalmin)
 
 		self.initialize_swarm()
 		iter = 0
@@ -222,7 +246,12 @@ class PSO:
 		if iter == iterbound:
 			print ('Iterations bound exceeded')
 		if out:
-			output = dict([('extremum value',self.globalmin),('extremum location',self.globalminlocation),('Number of iterations',iter)])
+			if randomname:
+				output = dict([('extremum value', self.globalmin), ('extremum location', self.globalminlocation),
+							   ('Number of iterations', iter), ('filename', randomname)])
+			else:
+				output = dict([('extremum value', self.globalmin), ('extremum location', self.globalminlocation),
+							   ('Number of iterations', iter)])
 			print errorlist
 			return output
 		else:
