@@ -24,8 +24,7 @@ def latlngToWorld((lat, lon)):
     #Copied from https://developers.google.com/maps/documentation/javascript/examples/map-coordinates
     siny = np.sin(lat*np.pi/180)
     siny = np.min(np.max(siny, -0.9999), 0.9999)
-    mercpoint = np.array((0.5 + (lon / 360), 0.5 - ((np.log((1 + siny) / (1 - siny))) * (INV_PI4))), dtype=float)
-	# print mercpoint*__TILE_SIZE
+    mercpoint = np.array((0.5 + (lon / 360), 0.5 - ((np.log((1 + siny) / (1 - siny))) * (INV_PI4))), dtype=float)  # print mercpoint*__TILE_SIZE
 	return mercpoint * __TILE_SIZE
     #Works!
 
@@ -92,7 +91,7 @@ def pixelToWorld((pixel_x,pixel_y),z):
 
 
 def pixelToLatlng_corner((pixelX, pixelY), z):
-	#latlong coordinate of a pixel's top left corner.
+	# latlong coordinate of a pixel's top left corner.
     (worldX,worldY) = pixelToWorld((pixelX,pixelY),z)
     return worldToLatLon((worldX,worldY))
 
@@ -101,7 +100,7 @@ def tileToLatlng((tileX, tileY), z):
     if np.any(np.array((tileX, tileY) > EXP2[z + 8])):
         raise ValueError('Invalid tile value for the given zoom')
     centrepixel = tileToCenterPixel((tileX,tileY))
-	latlng = pixelToLatLng_center(centrepixel,z)
+	latlng = pixelToLatLng_center(centrepixel, z)
     print ('Latitude and Longitude of the centre pixel %s are %s')%(centrepixel,latlng)
     return latlng
 
