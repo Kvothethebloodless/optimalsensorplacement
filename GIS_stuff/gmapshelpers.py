@@ -1,9 +1,11 @@
 from __future__ import division
 
 import numpy as np
+import pdb
 
-TILE_SIZE = 256
-INV_TILE_SIZE = 1 / TILE_SIZE
+__TILE_SIZE = 256
+__INV_TILE_SIZE = 1 / __TILE_SIZE
+TILE_SIZE = __TILE_SIZE  # So that external functions can read, but not write to this variable's value.
 MAX_ZOOM = 23
 D2R = np.pi / 180
 R2D = 180 / np.pi
@@ -23,8 +25,8 @@ def latlngToWorld((lat, lon)):
     siny = np.sin(lat*np.pi/180)
     siny = np.min(np.max(siny, -0.9999), 0.9999)
     mercpoint = np.array((0.5 + (lon / 360), 0.5 - ((np.log((1 + siny) / (1 - siny))) * (INV_PI4))), dtype=float)
-    # print mercpoint*TILE_SIZE
-    return mercpoint*TILE_SIZE
+	# print mercpoint*__TILE_SIZE
+	return mercpoint * __TILE_SIZE
     #Works!
 
 def latlngToPixel((lat,lon),z):
@@ -45,8 +47,8 @@ def latlngToTile((lat,lng),z):
 def pixelToTile((pixelX,pixelY)):
     _validrequest = True 
     if _validrequest:
-        tileX = np.floor(pixelX * INV_TILE_SIZE)
-        tileY = np.floor(pixelY * INV_TILE_SIZE)
+		tileX = np.floor(pixelX * __INV_TILE_SIZE)
+		tileY = np.floor(pixelY * __INV_TILE_SIZE)
         return np.asarray((tileX,tileY),dtype=int)
     else:
         raise ValueError('Invalid zoom value. Must be under 21.')
@@ -64,8 +66,8 @@ def worldToPixel((worldX,worldY),z):
 
 def tileToPixel((tileX,tileY)):
    #Gives top left corner pixel value. 
-    pixelX = tileX*TILE_SIZE
-    pixelY = tileY*TILE_SIZE
+   pixelX = tileX * __TILE_SIZE
+   pixelY = tileY * __TILE_SIZE
     return (pixelX,pixelY)
 
 
@@ -79,7 +81,7 @@ def pixelToWorld((pixel_x,pixel_y),z):
     #Converts pixel coordinates at a zoom level to world coordinates
     # Vectorized already anyway.
     # pdb.set_trace()
-    z = z.astype('int')
+	z = np.array(z).astype('int')
     if np.any(np.abs(np.array((pixel_x, pixel_y))) > EXP2[z + 8]):
         raise ValueError('Invalid Pixel value for given zoom')
 
@@ -89,7 +91,8 @@ def pixelToWorld((pixel_x,pixel_y),z):
     return (world_x,world_y)
 
 
-def pixelToLatlng((pixelX,pixelY),z):
+def pixelToLatlng_corner((pixelX, pixelY), z):
+	#latlong coordinate of a pixel's top left corner.
     (worldX,worldY) = pixelToWorld((pixelX,pixelY),z)
     return worldToLatLon((worldX,worldY))
 
@@ -98,44 +101,77 @@ def tileToLatlng((tileX, tileY), z):
     if np.any(np.array((tileX, tileY) > EXP2[z + 8])):
         raise ValueError('Invalid tile value for the given zoom')
     centrepixel = tileToCenterPixel((tileX,tileY))
-    latlng = pixelToLatlng_better(centrepixel,z)
+	latlng = pixelToLatLng_center(centrepixel,z)
     print ('Latitude and Longitude of the centre pixel %s are %s')%(centrepixel,latlng)
     return latlng
 
 
+def pixelToLatLng_center(pixelXY, zoom):
+	"""
+	:param pixelXY: expects a nby2 numpy array or a single tuple of lat,lng in that order.
+	:param z: expects a integer zoom value, of range 0-MAX_ZOOM
+	:return: returns the latitude, longitude of the center of the pixel at the specified zoom level
+			 in the same data object type they arrived in. Tuple->Tuple, or Array->Array.
+	.. seealso:: pixelToLatLng_corner()
+	"""
 
-def pixelToLatlng_better((pixelX,pixelY),z):
     #For better calulcation. By default, the pixeltoLatLng converts to the Lat Long 
     # corresponding to the top righ corner of the pixel. So for better result, we are
     #infact calculating all the four sides (Different pixels corners, infact) and
     # averaging them up.
     #pdb.set_trace()
-    w = pixelToWorld((pixelX,pixelY),z)
-    list_sides = []
-    list_sides.append(w)
-    list_sides.append(pixelToWorld((pixelX, pixelY+1),z))
-    list_sides.append(pixelToWorld((pixelX+1, pixelY),z))
-    list_sides.append(pixelToWorld((pixelX+1, pixelY+1),z))
-    ele1 = 0
-    ele2 = 0
-    for i in range(4):
-        #print(list_sides[i])
-        ele1 += list_sides[i][0]
-        ele2 += list_sides[i][1]
-    w_new = (ele1 / 4, ele2 / 4)
-    # print w_new
-    #Vectorized already.
-    latlng_final = worldToLatLon(w_new)
-    #print(latlng_final)
-    return (latlng_final) 
+
+	z = np.array(zoom).astype(
+		'int')  # Just to make it a int. If it is a single number, it can still be used as a scalar
+	# after converting it to an array. It's alright!
+	try:
+		if isinstance(pixelXY, tuple):
+			pixelX = pixelXY[0]
+			pixelY = pixelXY[1]
+
+		elif hasattr(pixelXY, '__iter__'):
+			# It is very likely a numpy array or a list of lists.
+			pixelX = np.array(pixelXY[:, 0]).astype('int')
+			pixelY = np.array(pixelXY[:, 1]).astype('int')
+
+			if np.size(zoom) == 1:
+				zoom = np.ones(np.size(pixelX)) * zoom
+			elif np.size(zoom) != np.size(pixelX):
+				raise RuntimeError("Invalid number of zoom values. Does'n't match the size of Pixel Array.")
+
+
+
+	except TypeError:
+		raise ('Input must be a tuple or a numpy array.')
+
+	pdb.set_trace()
+	w = pixelToWorld((pixelX, pixelY), z)
+	list_sides = []
+	list_sides.append(w)
+	list_sides.append(pixelToWorld((pixelX, pixelY + 1), z))
+	list_sides.append(pixelToWorld((pixelX + 1, pixelY), z))
+	list_sides.append(pixelToWorld((pixelX + 1, pixelY + 1), z))
+	ele1 = 0
+	ele2 = 0
+	for i in range(4):
+		# print(list_sides[i])
+		ele1 += list_sides[i][0]
+		ele2 += list_sides[i][1]
+	w_new = (ele1 / 4, ele2 / 4)
+	# print w_new
+	# Vectorized already.
+	latlng_final = worldToLatLon(w_new)
+	# print(latlng_final)
+	return (latlng_final)
+
 
 
 
 def worldToLatLon((world_x,world_y)):
     #    pdb.set_trace()
     # Is vectorized already! Awaiting performance tests.
-    lng = ((world_x * INV_TILE_SIZE) * 360) - 180
-    p = np.exp((-(world_y * INV_TILE_SIZE) + .5) * PI4)
+	lng = ((world_x * __INV_TILE_SIZE) * 360) - 180
+	p = np.exp((-(world_y * __INV_TILE_SIZE) + .5) * PI4)
     lat = np.float(R2D) * (np.arcsin((p - 1) / (1 + p)))
     return ((lat,lng))
 

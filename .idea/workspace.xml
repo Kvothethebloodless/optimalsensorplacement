@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Added some important TODO">
+    <list default="true" id="fd52d597-ecea-44ad-941b-0162a55cb4ec" name="Default" comment="Added some important TODO . Sank Demo.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GIS_stuff/gmapshelpers.py" afterPath="$PROJECT_DIR$/GIS_stuff/gmapshelpers.py" />
     </list>
     <ignored path="Optimal Sensor Location.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,22 +27,50 @@
       <file leaf-file-name="gmapshelpers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GIS_stuff/gmapshelpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
               <folding>
-                <element signature="e#433#823#0" expanded="true" />
-                <element signature="e#862#1066#0" expanded="true" />
-                <element signature="e#1104#1366#0" expanded="true" />
-                <element signature="e#1406#1674#0" expanded="true" />
-                <element signature="e#1718#2025#0" expanded="true" />
-                <element signature="e#2062#2183#0" expanded="true" />
-                <element signature="e#2227#2346#0" expanded="true" />
-                <element signature="e#2392#2853#0" expanded="true" />
-                <element signature="e#2898#2989#0" expanded="true" />
-                <element signature="e#3033#3355#0" expanded="true" />
-                <element signature="e#3408#4275#0" expanded="true" />
-                <element signature="e#4322#4585#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#552#946#0" expanded="true" />
+                <element signature="e#985#1189#0" expanded="true" />
+                <element signature="e#1227#1489#0" expanded="true" />
+                <element signature="e#1529#1801#0" expanded="true" />
+                <element signature="e#1845#2152#0" expanded="true" />
+                <element signature="e#2189#2314#0" expanded="true" />
+                <element signature="e#2358#2477#0" expanded="true" />
+                <element signature="e#2523#2994#0" expanded="true" />
+                <element signature="e#3046#3191#0" expanded="true" />
+                <element signature="e#3235#3557#0" expanded="true" />
+                <element signature="e#3602#5519#0" expanded="true" />
+                <element signature="e#5566#5833#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GIS_stuff/tile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#325#697#0" expanded="true" />
+                <element signature="e#729#1126#0" expanded="true" />
+                <element signature="e#1151#2198#0" expanded="true" />
+                <element signature="e#2236#2574#0" expanded="true" />
+                <element signature="e#2611#3475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="933" column="33" selection-start-line="933" selection-start-column="33" selection-end-line="933" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,26 +78,10 @@
       <file leaf-file-name="profilelatlong.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GIS_stuff/profilelatlong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#95#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GIS_stuff/tile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <element signature="e#837#1040#0" expanded="true" />
-                <element signature="e#1074#1260#0" expanded="true" />
-                <element signature="e#1288#2209#0" expanded="true" />
-                <element signature="e#2254#2314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,20 +90,8 @@
       <file leaf-file-name="visualization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#514#770#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3droadlocalize.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -99,9 +100,11 @@
       <file leaf-file-name="psosolver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +112,7 @@
       <file leaf-file-name="merc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="0">
               <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
               <folding />
             </state>
@@ -119,7 +122,7 @@
       <file leaf-file-name="gis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="0">
               <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="e#129#236#0" expanded="true" />
@@ -133,7 +136,7 @@
       <file leaf-file-name="terrain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/terrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="0">
               <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="e#648#805#0" expanded="true" />
@@ -159,8 +162,8 @@
       <file leaf-file-name="curve_localization.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -231,6 +234,7 @@
         <option value="$PROJECT_DIR$/GIS_stuff/merc.js" />
         <option value="$PROJECT_DIR$/solvers/psosolver.py" />
         <option value="$PROJECT_DIR$/GIS_stuff/profilelatlong.py" />
+        <option value="$PROJECT_DIR$/simulationscripts/curve_localization.py" />
         <option value="$PROJECT_DIR$/GIS_stuff/gmapshelpers.py" />
         <option value="$PROJECT_DIR$/GIS_stuff/tile.py" />
       </list>
@@ -317,7 +321,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GIS_stuff" />
+              <option name="myItemId" value="solvers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,23 +333,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/GIS_stuff/tile.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="215" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="159" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="233" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="239" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="176" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="214" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="158" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="233" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="172" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="240" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="177" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="SearchEverywhereHistoryKey" value="terrain&#9;null&#9;null" />
     <property name="TODO_SCOPE" value="Project Files" />
@@ -698,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468093279258</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added some important TODO . Sank Demo.&#10;">
+      <created>1468095271057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1468095271057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -715,21 +726,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.50623703" order="1" side_tool="true" content_ui="combo" x="65" y="63" width="369" height="1045" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22765073" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3087318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.504" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.5239583" order="1" side_tool="true" content_ui="combo" x="65" y="63" width="369" height="1045" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22680412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5069091" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.49745455" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35031185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.493763" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.496" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986361" sideWeight="0.47604167" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48856547" sideWeight="0.4930909" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986361" sideWeight="0.504158" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3087318" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16572717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -782,7 +793,8 @@
     <MESSAGE value="Fully working. Excellent results. Need to add animation. Will do soon." />
     <MESSAGE value="Added vectorized latlng to Pixel functionality." />
     <MESSAGE value="Added some important TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some important TODO" />
+    <MESSAGE value="Added some important TODO . Sank Demo.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some important TODO . Sank Demo.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -801,13 +813,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/psosolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Awesomestuff/SWARMX/ParticelSwarmOptimization/statelogger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1047,9 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,23 +1059,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/example1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1379#1749#0" expanded="true" />
-            <element signature="e#1805#2213#0" expanded="true" />
-            <element signature="e#2264#3189#0" expanded="true" />
-            <element signature="e#3234#3324#0" expanded="true" />
-            <element signature="e#3368#3865#0" expanded="true" />
-            <element signature="e#3914#4468#0" expanded="true" />
-            <element signature="e#4510#5334#0" expanded="true" />
-            <element signature="e#5371#6235#0" expanded="true" />
+            <element signature="e#129#236#0" expanded="true" />
+            <element signature="e#316#635#0" expanded="true" />
+            <element signature="e#1197#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/terrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="0">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="e#648#805#0" expanded="true" />
@@ -1095,45 +1120,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GIS_stuff/merc.js">
+    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gis.py">
+    <entry file="file://$PROJECT_DIR$/GIS_stuff/profilelatlong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#129#236#0" expanded="true" />
-            <element signature="e#316#635#0" expanded="true" />
-            <element signature="e#1197#1397#0" expanded="true" />
+            <element signature="e#95#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="933" column="33" selection-start-line="933" selection-start-column="33" selection-end-line="933" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solvers/psosolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/example1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/curve_localization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1142,64 +1168,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GIS_stuff/gmapshelpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
           <folding>
-            <element signature="e#433#823#0" expanded="true" />
-            <element signature="e#862#1066#0" expanded="true" />
-            <element signature="e#1104#1366#0" expanded="true" />
-            <element signature="e#1406#1674#0" expanded="true" />
-            <element signature="e#1718#2025#0" expanded="true" />
-            <element signature="e#2062#2183#0" expanded="true" />
-            <element signature="e#2227#2346#0" expanded="true" />
-            <element signature="e#2392#2853#0" expanded="true" />
-            <element signature="e#2898#2989#0" expanded="true" />
-            <element signature="e#3033#3355#0" expanded="true" />
-            <element signature="e#3408#4275#0" expanded="true" />
-            <element signature="e#4322#4585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GIS_stuff/profilelatlong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#95#113#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#552#946#0" expanded="true" />
+            <element signature="e#985#1189#0" expanded="true" />
+            <element signature="e#1227#1489#0" expanded="true" />
+            <element signature="e#1529#1801#0" expanded="true" />
+            <element signature="e#1845#2152#0" expanded="true" />
+            <element signature="e#2189#2314#0" expanded="true" />
+            <element signature="e#2358#2477#0" expanded="true" />
+            <element signature="e#2523#2994#0" expanded="true" />
+            <element signature="e#3046#3191#0" expanded="true" />
+            <element signature="e#3235#3557#0" expanded="true" />
+            <element signature="e#3602#5519#0" expanded="true" />
+            <element signature="e#5566#5833#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GIS_stuff/tile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="779">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#837#1040#0" expanded="true" />
-            <element signature="e#1074#1260#0" expanded="true" />
-            <element signature="e#1288#2209#0" expanded="true" />
-            <element signature="e#2254#2314#0" expanded="true" />
+            <element signature="e#325#697#0" expanded="true" />
+            <element signature="e#729#1126#0" expanded="true" />
+            <element signature="e#1151#2198#0" expanded="true" />
+            <element signature="e#2236#2574#0" expanded="true" />
+            <element signature="e#2611#3475#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#514#770#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulationscripts/3droadlocalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
